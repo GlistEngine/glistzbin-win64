@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.gnu.debug"
+      label="%featureName"
+      version="10.0.0.202009010132"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.launch">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.launch"
+         download-size="188"
+         install-size="384"
+         version="10.0.0.202009010132"
+         unpack="false"/>
+
+</feature>

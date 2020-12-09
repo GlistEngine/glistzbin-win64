@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jgit.ssh.apache"
+      label="%featureName"
+      version="5.9.0.202009080501-r"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/jgit/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.jgit" version="5.9.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.jgit.ssh.apache"
+         download-size="167"
+         install-size="359"
+         version="5.9.0.202009080501-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.sshd.osgi"
+         download-size="1607"
+         install-size="3680"
+         version="2.4.0.v20200318-1614"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.sshd.sftp"
+         download-size="326"
+         install-size="749"
+         version="2.4.0.v20200319-1547"
+         unpack="false"/>
+
+   <plugin
+         id="net.i2p.crypto.eddsa"
+         download-size="86"
+         install-size="173"
+         version="0.3.0.v20181102-1323"
+         unpack="false"/>
+
+</feature>

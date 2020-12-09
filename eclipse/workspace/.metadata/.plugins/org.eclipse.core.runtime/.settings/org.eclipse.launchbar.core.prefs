@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:gameMartyr Release,org.eclipse.launchbar.core.descriptorType.default\:giaEmpty Release,org.eclipse.launchbar.core.descriptorType.default\:gisEmpty Release,org.eclipse.launchbar.core.descriptorType.default\:gisImage Release,org.eclipse.launchbar.core.descriptorType.default\:gisLight Release,org.eclipse.launchbar.core.descriptorType.default\:gisSkinnedMesh Release,org.eclipse.launchbar.core.descriptorType.default\:gisVbo Release,org.eclipse.launchbar.core.descriptorType.default\:GlistApp Release
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:gameMartyr\ Release/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:gameMartyr\ Release/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

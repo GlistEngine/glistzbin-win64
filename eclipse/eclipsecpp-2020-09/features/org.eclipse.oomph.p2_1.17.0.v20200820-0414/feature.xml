@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2014-2017 Eike Stepper (Loehne, Germany) and others.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v2.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v20.html
+
+  Contributors:
+    Eike Stepper - initial API and implementation
+-->
+<feature
+      id="org.eclipse.oomph.p2"
+      label="%featureName"
+      version="1.17.0.v20200820-0414"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/oomph/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/oomph/updates"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.oomph.p2"
+         download-size="66"
+         install-size="203"
+         version="1.14.0.v20200624-1156"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.p2.core"
+         download-size="363"
+         install-size="844"
+         version="1.17.0.v20200820-0414"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.p2.edit"
+         download-size="50"
+         install-size="99"
+         version="1.14.0.v20200624-1156"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.p2.ui"
+         download-size="375"
+         install-size="801"
+         version="1.14.0.v20200805-0908"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.p2.doc"
+         download-size="314"
+         install-size="2043"
+         version="1.11.0.v20200624-1156"
+         unpack="false"/>
+
+</feature>

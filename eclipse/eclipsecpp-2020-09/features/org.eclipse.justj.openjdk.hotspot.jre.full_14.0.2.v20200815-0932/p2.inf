@@ -1,0 +1,136 @@
+# Copyright (c) 2020 Eclipse contributors and others.
+# 
+# This program and the accompanying materials
+# are made available under the terms of the Eclipse Public License 2.0
+# which accompanies this distribution, and is available at
+# https://www.eclipse.org/legal/epl-2.0/
+# 
+# SPDX-License-Identifier: EPL-2.0
+#
+
+properties.0.name = org.eclipse.justj.model
+properties.0.value = <?xml version="1.0" encoding="UTF-8"?>\n\
+ <model:JVM xmlns:model="http://www.eclipse.org/just/2020/Model"\n\
+\    name="openjdk.hotspot.jre.full"\n\
+\    label="OpenJDK Hotspot JRE Complete"\n\
+\    version="14.0.2">\n\
+\  <annotation\n\
+\      source="https://www.eclipse.org/justj/Properties">\n\
+\    <detail\n\
+\        key="java.class.version">\n\
+\      <value>58.0</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.runtime.name">\n\
+\      <value>OpenJDK Runtime Environment</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.runtime.version">\n\
+\      <value>14.0.2+12-46</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.specification.name">\n\
+\      <value>Java Platform API Specification</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.specification.vendor">\n\
+\      <value>Oracle Corporation</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.specification.version">\n\
+\      <value>14</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vendor">\n\
+\      <value>Oracle Corporation</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vendor.url">\n\
+\      <value>https://java.oracle.com/</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vendor.url.bug">\n\
+\      <value>https://bugreport.java.com/bugreport/</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.version">\n\
+\      <value>14.0.2</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.version.date">\n\
+\      <value>2020-07-14</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.compressedOopsMode">\n\
+\      <value>32-bit</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.info">\n\
+\      <value>mixed mode</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.name">\n\
+\      <value>OpenJDK 64-Bit Server VM</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.specification.name">\n\
+\      <value>Java Virtual Machine Specification</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.specification.vendor">\n\
+\      <value>Oracle Corporation</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.specification.version">\n\
+\      <value>14</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.vendor">\n\
+\      <value>Oracle Corporation</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="java.vm.version">\n\
+\      <value>14.0.2+12-46</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.description">\n\
+\      <value>Provides the complete set of modules of the JDK, excluding incubators.</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.jlink.args">\n\
+\      <value>--compress=2</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.label">\n\
+\      <value>OpenJDK Hotspot JRE Complete</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.name">\n\
+\      <value>openjdk.hotspot.jre.full</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.url.vendor">\n\
+\      <value>https://jdk.java.net/</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.osgi.framework.system.capabilities">\n\
+\      <value>osgi.ee; osgi.ee=&quot;OSGi/Minimum&quot;; version:List&lt;Version>=&quot;1.0, 1.1, 1.2&quot;, osgi.ee; osgi.ee=&quot;JRE&quot;; version:List&lt;Version>=&quot;1.0, 1.1&quot;, osgi.ee; osgi.ee=&quot;JavaSE&quot;; version:List&lt;Version>=&quot;1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact1&quot;; version:List&lt;Version>=&quot;1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact2&quot;; version:List&lt;Version>=&quot;1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact3&quot;; version:List&lt;Version>=&quot;1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0&quot;</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.osgi.framework.system.packages">\n\
+\      <value>com.sun.jarsigner, com.sun.java.accessibility.util, com.sun.jdi, com.sun.jdi.connect, com.sun.jdi.connect.spi, com.sun.jdi.event, com.sun.jdi.request, com.sun.management, com.sun.net.httpserver, com.sun.net.httpserver.spi, com.sun.nio.file, com.sun.nio.sctp, com.sun.security.auth, com.sun.security.auth.callback, com.sun.security.auth.login, com.sun.security.auth.module, com.sun.security.jgss, com.sun.source.doctree, com.sun.source.tree, com.sun.source.util, com.sun.tools.attach, com.sun.tools.attach.spi, com.sun.tools.javac, com.sun.tools.jconsole, java.applet, java.awt, java.awt.color, java.awt.datatransfer, java.awt.desktop, java.awt.dnd, java.awt.event, java.awt.font, java.awt.geom, java.awt.im, java.awt.im.spi, java.awt.image, java.awt.image.renderable, java.awt.print, java.beans, java.beans.beancontext, java.io, java.lang, java.lang.annotation, java.lang.constant, java.lang.instrument, java.lang.invoke, java.lang.management, java.lang.module, java.lang.ref, java.lang.reflect, java.lang.runtime, java.math, java.net, java.net.http, java.net.spi, java.nio, java.nio.channels, java.nio.channels.spi, java.nio.charset, java.nio.charset.spi, java.nio.file, java.nio.file.attribute, java.nio.file.spi, java.rmi, java.rmi.activation, java.rmi.dgc, java.rmi.registry, java.rmi.server, java.security, java.security.cert, java.security.interfaces, java.security.spec, java.sql, java.text, java.text.spi, java.time, java.time.chrono, java.time.format, java.time.temporal, java.time.zone, java.util, java.util.concurrent, java.util.concurrent.atomic, java.util.concurrent.locks, java.util.function, java.util.jar, java.util.logging, java.util.prefs, java.util.regex, java.util.spi, java.util.stream, java.util.zip, javax.accessibility, javax.annotation.processing, javax.crypto, javax.crypto.interfaces, javax.crypto.spec, javax.imageio, javax.imageio.event, javax.imageio.metadata, javax.imageio.plugins.bmp, javax.imageio.plugins.jpeg, javax.imageio.plugins.tiff, javax.imageio.spi, javax.imageio.stream, javax.lang.model, javax.lang.model.element, javax.lang.model.type, javax.lang.model.util, javax.management, javax.management.loading, javax.management.modelmbean, javax.management.monitor, javax.management.openmbean, javax.management.relation, javax.management.remote, javax.management.remote.rmi, javax.management.timer, javax.naming, javax.naming.directory, javax.naming.event, javax.naming.ldap, javax.naming.ldap.spi, javax.naming.spi, javax.net, javax.net.ssl, javax.print, javax.print.attribute, javax.print.attribute.standard, javax.print.event, javax.rmi.ssl, javax.script, javax.security.auth, javax.security.auth.callback, javax.security.auth.kerberos, javax.security.auth.login, javax.security.auth.spi, javax.security.auth.x500, javax.security.cert, javax.security.sasl, javax.smartcardio, javax.sound.midi, javax.sound.midi.spi, javax.sound.sampled, javax.sound.sampled.spi, javax.sql, javax.sql.rowset, javax.sql.rowset.serial, javax.sql.rowset.spi, javax.swing, javax.swing.border, javax.swing.colorchooser, javax.swing.event, javax.swing.filechooser, javax.swing.plaf, javax.swing.plaf.basic, javax.swing.plaf.metal, javax.swing.plaf.multi, javax.swing.plaf.nimbus, javax.swing.plaf.synth, javax.swing.table, javax.swing.text, javax.swing.text.html, javax.swing.text.html.parser, javax.swing.text.rtf, javax.swing.tree, javax.swing.undo, javax.tools, javax.transaction.xa, javax.xml, javax.xml.catalog, javax.xml.crypto, javax.xml.crypto.dom, javax.xml.crypto.dsig, javax.xml.crypto.dsig.dom, javax.xml.crypto.dsig.keyinfo, javax.xml.crypto.dsig.spec, javax.xml.datatype, javax.xml.namespace, javax.xml.parsers, javax.xml.stream, javax.xml.stream.events, javax.xml.stream.util, javax.xml.transform, javax.xml.transform.dom, javax.xml.transform.sax, javax.xml.transform.stax, javax.xml.transform.stream, javax.xml.validation, javax.xml.xpath, jdk.dynalink, jdk.dynalink.beans, jdk.dynalink.linker, jdk.dynalink.linker.support, jdk.dynalink.support, jdk.javadoc.doclet, jdk.jfr, jdk.jfr.consumer, jdk.jshell, jdk.jshell.execution, jdk.jshell.spi, jdk.jshell.tool, jdk.management.jfr, jdk.nashorn.api.scripting, jdk.nashorn.api.tree, jdk.net, jdk.nio, jdk.nio.mapmode, jdk.security.jarsigner, jdk.swing.interop, netscape.javascript, org.ietf.jgss, org.w3c.dom, org.w3c.dom.bootstrap, org.w3c.dom.css, org.w3c.dom.events, org.w3c.dom.html, org.w3c.dom.ls, org.w3c.dom.ranges, org.w3c.dom.stylesheets, org.w3c.dom.traversal, org.w3c.dom.views, org.w3c.dom.xpath, org.xml.sax, org.xml.sax.ext, org.xml.sax.helpers, sun.misc, sun.reflect</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.osgi.framework.version">\n\
+\      <value>1.9.0</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="osgi.arch">\n\
+\      <value>x86_64</value>\n\
+\    </detail>\n\
+\  </annotation>\n\
+\  <description>Provides the complete set of modules of the JDK, excluding incubators.</description>\n\
+\  <aboutTextExtra>\n\n    Visit http://www.eclipse.org/justj\n\n    Provides Java Runtimes derived from https://jdk.java.net/.\n\
+\  </aboutTextExtra>\n\
+ </model:JVM>\n
+

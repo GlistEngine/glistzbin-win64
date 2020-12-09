@@ -1,0 +1,8 @@
+build.all.configs.enabled=false
+build.proj.ref.configs.enabled=false
+eclipse.preferences.version=1
+environment/workspace/PATH/delimiter=;
+environment/workspace/PATH/operation=replace
+environment/workspace/PATH/value=${workspace_loc}\\..\\..\\mingw64\\bin;${workspace_loc}\\..\\..\\cmake\\bin
+environment/workspace/append=true
+environment/workspace/appendContributed=true

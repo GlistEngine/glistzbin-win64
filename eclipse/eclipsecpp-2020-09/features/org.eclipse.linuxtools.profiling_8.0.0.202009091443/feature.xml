@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.linuxtools.profiling"
+      label="%featureName"
+      version="8.0.0.202009091443"
+      provider-name="%featureProvider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="Linux Tools Update Site" url="http://download.eclipse.org/linuxtools/update"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.cdt.core"/>
+      <import plugin="org.eclipse.cdt.debug.core"/>
+      <import plugin="org.eclipse.core.filesystem"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.debug.core"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.cdt.launch"/>
+      <import plugin="org.eclipse.cdt.ui"/>
+      <import plugin="org.eclipse.ui.console"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.linuxtools.profiling.ui"
+         download-size="29"
+         install-size="55"
+         version="3.2.0.202009091443"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.profiling.ui.capability"
+         download-size="9"
+         install-size="18"
+         version="1.0.0.202009091443"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.profiling.launch"
+         download-size="129"
+         install-size="277"
+         version="3.3.0.202009091443"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.binutils"
+         download-size="48"
+         install-size="92"
+         version="6.0.0.202009091443"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.profiling.docs"
+         download-size="434"
+         install-size="470"
+         version="1.0.0.202009091443"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.tools.launch.core"
+         download-size="23"
+         install-size="42"
+         version="3.3.0.202009091443"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.tools.launch.ui"
+         download-size="17"
+         install-size="27"
+         version="2.0.0.202009091443"/>
+
+</feature>

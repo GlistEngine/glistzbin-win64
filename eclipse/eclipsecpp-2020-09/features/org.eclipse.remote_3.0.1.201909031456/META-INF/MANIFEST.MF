@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Built-By: default
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_202
+
+Name: epl-2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: epl-v10.html
+SHA-256-Digest: T9ZK7tNA1ipkqNpLNx7+D20NdF9NLb76y6hsZG02vHI=
+
+Name: feature.xml
+SHA-256-Digest: ERHVqMv6IyLkK1kaw5Uj6iZRFAMXYuNRju4eS7FXvCc=
+
+Name: eclipse_update_120.jpg
+SHA-256-Digest: Hz0atd2kr+i4cvgLVlm8vrN9olKs5NgxwdDxTuA9N2k=
+
+Name: feature.properties
+SHA-256-Digest: iDIiuHrJfSLxeOEx3b67POHoti6PCqaJEeK79MnAof4=
+
+Name: license.html
+SHA-256-Digest: Dv5NbrV590iFepPFp4HDAA9w8zkHSynRW5FCE+FLHVM=
+

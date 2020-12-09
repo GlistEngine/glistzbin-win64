@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2010 Tasktop Technologies and others.
+ 
+    This program and the accompanying materials are made available under the
+    terms of the Eclipse Public License v. 2.0 which is available at
+    https://www.eclipse.org/legal/epl-2.0
+ 
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+         Tasktop Technologies - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.mylyn.commons.notifications"
+      label="%featureName"
+      version="1.17.2.v20200813-0821"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.commons.core">
+
+   <description url="http://eclipse.org/mylyn">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <!-- Java 11 compatibility -->
+      <import plugin="javax.activation" version="1.1.0" match="compatible"/>
+      <import plugin="javax.xml.bind" version="2.2.0" match="compatible"/>
+      <import plugin="com.sun.xml.bind" version="2.2.0" match="compatible"/>
+      <import plugin="javax.xml.stream" version="1.0.1" match="compatible"/>
+            
+      <import feature="org.eclipse.mylyn.commons" version="3.25.2" match="greaterOrEqual"/>      
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.notifications.core"
+         download-size="7"
+         install-size="11"
+         version="1.17.2.v20200813-0821"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.notifications.feed"
+         download-size="23"
+         install-size="42"
+         version="1.17.2.v20200813-0821"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.commons.notifications.ui"
+         download-size="51"
+         install-size="102"
+         version="1.17.2.v20200813-0821"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,2 @@
+@echo off
+SET DOCKER

@@ -1,0 +1,89 @@
+/*******************************************************************************
+ * Copyright (c) 2010, 2017 IBM Corporation and others.
+ *
+ * This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License 2.0
+ * which accompanies this distribution, and is available at
+ * https://www.eclipse.org/legal/epl-2.0/
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *
+ * Contributors:
+ *     IBM Corporation - initial API and implementation
+ *     Lars Vogel <Lars.Vogel@gmail.com> - Bug 420836
+ *     Patrik Suzzi <psuzzi@gmail.com> - Bug 497591, 501250, 512385
+ *******************************************************************************/
+
+@import url("platform:/plugin/org.eclipse.ui.themes/css/e4_basestyle.css");
+
+ColorDefinition#org-eclipse-ui-workbench-ACTIVE_UNSELECTED_TABS_COLOR_START {
+	color: #F6F6F6;
+}
+
+ColorDefinition#org-eclipse-ui-workbench-ACTIVE_UNSELECTED_TABS_COLOR_END {
+	color: #D6D6D6;
+}
+
+ColorDefinition#org-eclipse-ui-workbench-ACTIVE_TAB_OUTER_KEYLINE_COLOR {
+	color: #C4C5C1;
+}
+
+
+.MTrimmedWindow {
+	background-color: #E8E8E8;
+}
+
+.MTrimBar {
+	background-color: #E8E8E8;
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar {
+	background-color: #F0F0F0 #E8E8E8 100%;
+}
+
+.MToolControl.TrimStack {
+	frame-image: url(./macTSFrame.png);
+	handle-image: url(./macHandle.png);
+	frame-image-rotated: url(./macTSFrame-rotated.png);
+	handle-image-rotated: url(./macHandle-rotated.png);
+	frame-cuts: 5px 1px 5px 16px;
+}
+
+.MToolBar.Draggable {
+	handle-image: url(./macHandle.png);
+}
+
+.MPartStack {
+	swt-simple: false;
+	swt-unselected-tabs-color: #E8E8E8 #FFFFFF 100%;
+	swt-outer-keyline-color: #FFFFFF;
+	swt-inner-keyline-color: #FFFFFF;
+	swt-tab-outline: #B6BCCC;
+}
+
+.MPartStack.active {
+	swt-tab-outline: #B6BCCC;
+	swt-shadow-visible: false;
+	swt-outer-keyline-color: #C4C5C1;
+}
+
+CTabFolder.MArea {
+	background-color: #E8E8E8;
+	swt-selected-tab-fill: #E8E8E8;
+	swt-unselected-tabs-color: #E8E8E8;
+	swt-outer-keyline-color: #E8E8E8;
+	swt-inner-keyline-color: #E8E8E8;
+	swt-tab-outline: #E8E8E8;
+}
+
+CTabFolder {
+  swt-selected-tabs-background: #CCE0F6 #3F97F9 100%;
+}
+
+CTabFolder CTabItem:selected {
+  background-color: #E9E8E9;
+}
+
+CTabFolder Canvas {
+	background-color: #FFFFFF;
+}

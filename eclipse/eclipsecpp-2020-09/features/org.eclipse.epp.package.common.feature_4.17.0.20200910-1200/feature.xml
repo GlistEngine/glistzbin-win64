@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epp.package.common.feature"
+      label="EPP Common Package Feature"
+      version="4.17.0.20200910-1200"
+      provider-name="Eclipse Packaging Project">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <!-- Bug 455645: Integrate Oomph into all EPP packages
+           https://bugs.eclipse.org/bugs/show_bug.cgi?id=455645 -->
+      <import feature="org.eclipse.oomph.setup"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.epp.package.common"
+         download-size="151"
+         install-size="413"
+         version="4.17.0.20200910-1200"
+         unpack="true"/>
+
+</feature>

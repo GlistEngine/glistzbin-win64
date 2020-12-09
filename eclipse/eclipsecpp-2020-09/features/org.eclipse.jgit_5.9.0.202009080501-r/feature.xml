@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jgit"
+      label="%featureName"
+      version="5.9.0.202009080501-r"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/jgit/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.jgit"
+         download-size="2778"
+         install-size="5748"
+         version="5.9.0.202009080501-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit.archive"
+         download-size="24"
+         install-size="49"
+         version="5.9.0.202009080501-r"
+         unpack="false"/>
+
+   <plugin
+         id="javaewah"
+         download-size="180"
+         install-size="350"
+         version="1.1.7.v20200107-0831"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.compress"
+         download-size="639"
+         install-size="1239"
+         version="1.19.0.v20200106-2343"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="36"
+         install-size="64"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.gdb"
+      label="%featureName"
+      version="10.0.0.202008310002"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.gdb">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.gdb"
+         download-size="16"
+         install-size="21"
+         version="7.1.0.202008310002"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.gdb.ui"
+         download-size="11"
+         install-size="15"
+         version="7.1.0.202008310002"
+         unpack="false"/>
+
+</feature>

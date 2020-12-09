@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1604051746590" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.2.700.v20200705-1016" url="features/org.eclipse.equinox.p2.discovery.feature_1.2.700.v20200705-1016/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.cdtserial.feature" version="10.0.0.202008310315" url="features/org.eclipse.tm.terminal.connector.cdtserial.feature_10.0.0.202008310315/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.cdt.libhover.devhelp.feature" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.cdt.libhover.devhelp.feature_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.identity" version="1.17.2.v20200813-0821" url="features/org.eclipse.mylyn.commons.identity_1.17.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.epp.package.cpp.feature" version="4.17.0.20200910-1200" url="features/org.eclipse.epp.package.cpp.feature_4.17.0.20200910-1200/" plugin-identifier="org.eclipse.epp.package.cpp">
+		</feature>
+		<feature id="org.eclipse.launchbar.remote" version="10.0.0.202008310315" url="features/org.eclipse.launchbar.remote_10.0.0.202008310315/" plugin-identifier="org.eclipse.launchbar.remote.ui">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.1400.v20200812-2314" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1400.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.jgit.ssh.jsch" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.ssh.jsch_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.cdt.testsrunner.feature" version="10.0.0.202008310002" url="features/org.eclipse.cdt.testsrunner.feature_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.testsrunner">
+		</feature>
+		<feature id="org.eclipse.remote" version="3.0.1.201909031456" url="features/org.eclipse.remote_3.0.1.201909031456/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.400.v20200812-2314" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.400.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.cdt.native" version="10.0.0.202009030027" url="features/org.eclipse.cdt.native_10.0.0.202009030027/" plugin-identifier="org.eclipse.cdt.core.native">
+		</feature>
+		<feature id="org.eclipse.tracecompass.lttng2.control" version="6.1.0.202009091440" url="features/org.eclipse.tracecompass.lttng2.control_6.1.0.202009091440/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.dsf" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gnu.dsf_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.dsf.gdb.ui">
+		</feature>
+		<feature id="org.eclipse.cdt" version="10.0.0.202009071455" url="features/org.eclipse.cdt_10.0.0.202009071455/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.17.0.v20200831-1002" url="features/org.eclipse.e4.rcp_4.17.0.v20200831-1002/">
+		</feature>
+		<feature id="org.eclipse.cdt.gdb" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gdb_10.0.0.202008310002/">
+		</feature>
+		<feature id="org.eclipse.jgit.http.apache" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.http.apache_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.local.feature" version="10.0.0.202008310315" url="features/org.eclipse.tm.terminal.connector.local.feature_10.0.0.202008310315/">
+		</feature>
+		<feature id="org.eclipse.cdt.docker.launcher" version="10.0.0.202009070147" url="features/org.eclipse.cdt.docker.launcher_10.0.0.202009070147/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.cdt.libhover.feature" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.cdt.libhover.feature_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.20.0.v20200822-0801" url="features/org.eclipse.emf.common_2.20.0.v20200822-0801/">
+		</feature>
+		<feature id="org.eclipse.epp.package.common.feature" version="4.17.0.20200910-1200" url="features/org.eclipse.epp.package.common.feature_4.17.0.20200910-1200/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.4.900.v20200828-0839" url="features/org.eclipse.equinox.p2.user.ui_2.4.900.v20200828-0839/">
+		</feature>
+		<feature id="org.eclipse.cdt.meson" version="10.0.0.202008311307" url="features/org.eclipse.cdt.meson_10.0.0.202008311307/" plugin-identifier="org.eclipse.cdt.meson.ui">
+		</feature>
+		<feature id="org.eclipse.tracecompass.lttng2.kernel" version="6.1.0.202009091440" url="features/org.eclipse.tracecompass.lttng2.kernel_6.1.0.202009091440/">
+		</feature>
+		<feature id="org.eclipse.oomph.setup.core" version="1.18.0.v20200901-1012" url="features/org.eclipse.oomph.setup.core_1.18.0.v20200901-1012/">
+		</feature>
+		<feature id="org.eclipse.mylyn.monitor" version="3.25.2.v20200813-0821" url="features/org.eclipse.mylyn.monitor_3.25.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.500.v20200812-2314" url="features/org.eclipse.ecf.core.ssl.feature_1.1.500.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.valgrind" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.valgrind_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.rpm" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.rpm_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.oomph.setup" version="1.18.0.v20200901-1012" url="features/org.eclipse.oomph.setup_1.18.0.v20200901-1012/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.17.0.v20200902-1800" url="features/org.eclipse.rcp_4.17.0.v20200902-1800/">
+		</feature>
+		<feature id="org.eclipse.cdt.qt" version="10.0.0.202008311307" url="features/org.eclipse.cdt.qt_10.0.0.202008311307/" plugin-identifier="org.eclipse.cdt.qt.ui">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext.editors_feature" version="3.0.38.202008172112" url="features/org.eclipse.mylyn.wikitext.editors_feature_3.0.38.202008172112/" plugin-identifier="org.eclipse.mylyn.wikitext">
+		</feature>
+		<feature id="org.eclipse.egit" version="5.9.0.202009080501-r" url="features/org.eclipse.egit_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.jgit.ssh.apache" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.ssh.apache_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.jgit.gpg.bc" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit.gpg.bc_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.cdt.autotools" version="10.0.0.202008311307" url="features/org.eclipse.cdt.autotools_10.0.0.202008311307/" plugin-identifier="org.eclipse.cdt.autotools.ui">
+		</feature>
+		<feature id="org.eclipse.cdt.build.crossgcc" version="10.0.0.202008310002" url="features/org.eclipse.cdt.build.crossgcc_10.0.0.202008310002/">
+		</feature>
+		<feature id="de.marw.cdt.cmake" version="2.1.2.202007111250" url="features/de.marw.cdt.cmake_2.1.2.202007111250/">
+		</feature>
+		<feature id="org.eclipse.epp.mpc" version="1.8.4.v20200709-0857" url="features/org.eclipse.epp.mpc_1.8.4.v20200709-0857/" plugin-identifier="org.eclipse.epp.mpc.ui">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.5.700.v20200812-2314" url="features/org.eclipse.ecf.core.feature_1.5.700.v20200812-2314/">
+		</feature>
+		<feature id="org.eclipse.launchbar" version="10.0.0.202008310315" url="features/org.eclipse.launchbar_10.0.0.202008310315/" plugin-identifier="org.eclipse.launchbar.ui">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.feature" version="10.0.0.202008310002" url="features/org.eclipse.tm.terminal.feature_10.0.0.202008310002/" plugin-identifier="org.eclipse.tm.terminal.view.core">
+		</feature>
+		<feature id="org.eclipse.userstorage" version="1.2.0.v20191120-1614" url="features/org.eclipse.userstorage_1.2.0.v20191120-1614/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.changelog.c" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.changelog.c_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.900.v20200828-0839" url="features/org.eclipse.equinox.p2.extras.feature_1.4.900.v20200828-0839/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.900.v20200813-0739" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.900.v20200813-0739/">
+		</feature>
+		<feature id="org.eclipse.tracecompass.lttng2.ust" version="6.1.0.202009091440" url="features/org.eclipse.tracecompass.lttng2.ust_6.1.0.202009091440/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.build" version="10.0.0.202008310002" url="features/org.eclipse.cdt.gnu.build_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.build.gcc.ui">
+		</feature>
+		<feature id="org.eclipse.cdt.debug.gdbjtag" version="10.0.0.202008310002" url="features/org.eclipse.cdt.debug.gdbjtag_10.0.0.202008310002/">
+		</feature>
+		<feature id="org.eclipse.cdt.gnu.debug" version="10.0.0.202009010132" url="features/org.eclipse.cdt.gnu.debug_10.0.0.202009010132/" plugin-identifier="org.eclipse.cdt.launch">
+		</feature>
+		<feature id="org.eclipse.linuxtools.profiling" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.profiling_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons" version="3.25.2.v20200813-0821" url="features/org.eclipse.mylyn.commons_3.25.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.view.feature" version="10.0.0.202008310315" url="features/org.eclipse.tm.terminal.view.feature_10.0.0.202008310315/" plugin-identifier="org.eclipse.tm.terminal.view.ui">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.23.0.v20200630-0516" url="features/org.eclipse.emf.ecore_2.23.0.v20200630-0516/">
+		</feature>
+		<feature id="org.eclipse.cdt.launch.serial.feature" version="10.0.0.202008310002" url="features/org.eclipse.cdt.launch.serial.feature_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.launch.serial.ui">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.6.700.v20200813-0739" url="features/org.eclipse.equinox.p2.core.feature_1.6.700.v20200813-0739/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.repositories" version="1.17.2.v20200813-0821" url="features/org.eclipse.mylyn.commons.repositories_1.17.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.telnet.feature" version="10.0.0.202008310315" url="features/org.eclipse.tm.terminal.connector.telnet.feature_10.0.0.202008310315/">
+		</feature>
+		<feature id="org.eclipse.tracecompass.tmf" version="6.1.0.202009091440" url="features/org.eclipse.tracecompass.tmf_6.1.0.202009091440/">
+		</feature>
+		<feature id="org.eclipse.linuxtools.gprof.feature" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.gprof.feature_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.cdt.cmake" version="10.0.0.202009011824" url="features/org.eclipse.cdt.cmake_10.0.0.202009011824/" plugin-identifier="org.eclipse.cdt.cmake.ui">
+		</feature>
+		<feature id="org.eclipse.cdt.debug.ui.memory" version="10.0.0.202008310315" url="features/org.eclipse.cdt.debug.ui.memory_10.0.0.202008310315/" plugin-identifier="org.eclipse.cdt.debug.ui.memory.memorybrowser">
+		</feature>
+		<feature id="org.eclipse.mylyn.discovery" version="3.25.2.v20200813-0821" url="features/org.eclipse.mylyn.discovery_3.25.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.linuxtools.gcov" version="8.0.0.202009091443" url="features/org.eclipse.linuxtools.gcov_8.0.0.202009091443/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.ssh.feature" version="10.0.0.202008310315" url="features/org.eclipse.tm.terminal.connector.ssh.feature_10.0.0.202008310315/" plugin-identifier="org.eclipse.tm.terminal.connector.ssh">
+		</feature>
+		<feature id="org.eclipse.tracecompass.gdbtrace" version="6.1.0.202009091440" url="features/org.eclipse.tracecompass.gdbtrace_6.1.0.202009091440/">
+		</feature>
+		<feature id="org.eclipse.cdt.launch.remote" version="10.0.0.202008310002" url="features/org.eclipse.cdt.launch.remote_10.0.0.202008310002/">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext_feature" version="3.0.38.202008172112" url="features/org.eclipse.mylyn.wikitext_feature_3.0.38.202008172112/" plugin-identifier="org.eclipse.mylyn.wikitext">
+		</feature>
+		<feature id="org.eclipse.platform" version="4.17.0.v20200902-1800" url="features/org.eclipse.platform_4.17.0.v20200902-1800/">
+		</feature>
+		<feature id="org.eclipse.cdt.platform" version="10.0.0.202009071455" url="features/org.eclipse.cdt.platform_10.0.0.202009071455/" plugin-identifier="org.eclipse.cdt.platform.branding">
+		</feature>
+		<feature id="org.eclipse.cdt.debug.standalone" version="10.0.0.202008310002" url="features/org.eclipse.cdt.debug.standalone_10.0.0.202008310002/" plugin-identifier="org.eclipse.cdt.debug.application">
+		</feature>
+		<feature id="org.eclipse.help" version="2.3.300.v20200902-1800" url="features/org.eclipse.help_2.3.300.v20200902-1800/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.eclipse.mylyn_feature" version="3.25.2.v20200814-0512" url="features/org.eclipse.mylyn_feature_3.25.2.v20200814-0512/" plugin-identifier="org.eclipse.mylyn.tasks.core">
+		</feature>
+		<feature id="org.eclipse.jgit" version="5.9.0.202009080501-r" url="features/org.eclipse.jgit_5.9.0.202009080501-r/">
+		</feature>
+		<feature id="org.eclipse.tracecompass.ctf" version="6.1.0.202009091440" url="features/org.eclipse.tracecompass.ctf_6.1.0.202009091440/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" version="1.0.600.v20200816-1842" url="features/org.eclipse.ecf.filetransfer.httpclient45.feature_1.0.600.v20200816-1842/">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.notifications" version="1.17.2.v20200813-0821" url="features/org.eclipse.mylyn.commons.notifications_1.17.2.v20200813-0821/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.tracecompass.tmf.ctf" version="6.1.0.202009091440" url="features/org.eclipse.tracecompass.tmf.ctf_6.1.0.202009091440/">
+		</feature>
+		<feature id="org.eclipse.justj.openjdk.hotspot.jre.full" version="14.0.2.v20200815-0932" url="features/org.eclipse.justj.openjdk.hotspot.jre.full_14.0.2.v20200815-0932/">
+		</feature>
+		<feature id="org.eclipse.oomph.p2" version="1.17.0.v20200820-0414" url="features/org.eclipse.oomph.p2_1.17.0.v20200820-0414/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.control.feature" version="10.0.0.202009071350" url="features/org.eclipse.tm.terminal.control.feature_10.0.0.202009071350/" plugin-identifier="org.eclipse.tm.terminal.control">
+		</feature>
+	</site>
+</config>

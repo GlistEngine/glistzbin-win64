@@ -1,0 +1,223 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.ui.themes
+Bundle-SymbolicName: org.eclipse.ui.themes;singleton:=true
+Require-Bundle: org.eclipse.e4.ui.css.swt.theme
+Bundle-ManifestVersion: 2
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/platfo
+ rm/eclipse.platform.ui.git;path="bundles/org.eclipse.ui.themes";tag="
+ I20200828-0650";commitId=8d3e5c315412dc590d84149f4e50e8b3e062c066
+Bundle-Vendor: %Plugin.providerName
+Bundle-Name: %Plugin.name
+Bundle-Version: 1.2.1100.v20200825-0757
+Bundle-Localization: plugin
+Build-Jdk-Spec: 11
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+
+Name: images/winXPTSFrame-rotated.png
+SHA-256-Digest: OV5fFZ17nluUhr4MCfBvlYoH+6DnCD2O6OY2P/vKeVM=
+
+Name: plugin.xml
+SHA-256-Digest: T1gxmoN7PagVDLctRvbXiN9sudKcp0MHWUv77v8iVMI=
+
+Name: css/e4_default_gtk.css
+SHA-256-Digest: khHl6C3kEo+GJ0PsJUkGVzylS44qHDuf/pkZ8JfZEuo=
+
+Name: css/e4-dark_mac.css
+SHA-256-Digest: SfBMgMr9A+HVyLd9Nfat9JTi5m2LJRNjlCh79u0/MfQ=
+
+Name: images/winClassicHandle-rotated@2x.png
+SHA-256-Digest: wxpSEua+/8DGevJIuik4mjLgPc5eIQ9f94dTzGckDsw=
+
+Name: images/macHandle-rotated.png
+SHA-256-Digest: bcheCnGcqpDfEF2Eq+QzoB4nJ/e960iACO49rSnhH5I=
+
+Name: images/macTSFrame.png
+SHA-256-Digest: sfOoDK1H0oVD02mFtT+3oIKcPlKb5bF4f4CMd643P6s=
+
+Name: css/e4-dark_linux.css
+SHA-256-Digest: Oay3HIiuWQ7nzA+ECXJcDbQGqfl7DI9seoMcHuL11aU=
+
+Name: images/gtkTSFrame@2x.png
+SHA-256-Digest: v+KaCGfMjAbbOwYxqlBMphVxBW/dED3tx9l6YIt5fY0=
+
+Name: css/e4_default_win.css
+SHA-256-Digest: J/aL0sf+r4IYMG8dVx0KrKowAcV53zNl6wNOfkSDHu0=
+
+Name: images/gtkHandle@2x.png
+SHA-256-Digest: kRSi7ZrhqIRgcMsdMWHOuHmZgTcLg118XC25KYH24JM=
+
+Name: images/winHandle-rotated.png
+SHA-256-Digest: bcheCnGcqpDfEF2Eq+QzoB4nJ/e960iACO49rSnhH5I=
+
+Name: images/dragHandle@2x.png
+SHA-256-Digest: S2+NK/GcC+6IoVEV/3QLzUGShAo4tTt4M3aSrhLw6Js=
+
+Name: css/light/e4-light_globalstyle.css
+SHA-256-Digest: Tsbl2SD+KigZIgUaHgnMKiBDCG5ACb9Zth8c+QYumQE=
+
+Name: images/winClassicTSFrame.png
+SHA-256-Digest: NDv5g0NK8W0NdK89nL8dyx+7Oj7ed0PhgtGxQy4y6yg=
+
+Name: plugin.properties
+SHA-256-Digest: 4mGI5YUIA4VPeGENwnDqkib7igW7kQeR1Z4Jq8tbxqo=
+
+Name: images/macHandle.png
+SHA-256-Digest: s3/0H+S3dBrltFYEwob3j2NSA7Q17ptmQFIIVllE4Tk=
+
+Name: images/winXPTSFrame-rotated@2x.png
+SHA-256-Digest: EojIRZ1PN5hAMfa0C/7zUXSrhqziqp0Kwu+GhvT9fI4=
+
+Name: images/winTSFrame.png
+SHA-256-Digest: eiXxOmY4lUzwk3N7gvel6bZllyIQHnGMnVAt0k/mY88=
+
+Name: css/dark/e4-dark_partstyle.css
+SHA-256-Digest: LfbLF3PAyEH6a3sNFrwYdbYntwZMwAFXHAfWXrSE1eE=
+
+Name: images/winClassicTSFrame-rotated.png
+SHA-256-Digest: upDZsWfJ0Zdrty25nwDvHyfsZq3wZTQYk6y8e3WiVc8=
+
+Name: images/winClassicTSFrame-rotated@2x.png
+SHA-256-Digest: 2vJRE1fjwY4DQSsXKuZGs9JiYEpi3ux6gh/t3bIaEyw=
+
+Name: css/dark/e4-dark_globalstyle.css
+SHA-256-Digest: LC91Ffn74JWWiE2DntiY2abQMx0btDOCDlc74w+QR6Y=
+
+Name: css/e4_basestyle.css
+SHA-256-Digest: k2bd8zkZro7vB9sYbSDcKvdSOSjCe6k811ceWR/q8yE=
+
+Name: images/winHandle.png
+SHA-256-Digest: s3/0H+S3dBrltFYEwob3j2NSA7Q17ptmQFIIVllE4Tk=
+
+Name: images/gtkHandle.png
+SHA-256-Digest: s3/0H+S3dBrltFYEwob3j2NSA7Q17ptmQFIIVllE4Tk=
+
+Name: images/winClassicHandle.png
+SHA-256-Digest: s3/0H+S3dBrltFYEwob3j2NSA7Q17ptmQFIIVllE4Tk=
+
+Name: images/winClassicTSFrame@2x.png
+SHA-256-Digest: E6XVlGdeDLyvVpe4rH7whqTyyyXvS1nvEUISq6FwatE=
+
+Name: css/dark/e4-dark_ide_colorextensions.css
+SHA-256-Digest: AzMHNpg/NHMYjMITniDoCj5yWP8JraXPRsxsB7i6dLg=
+
+Name: images/winXPHandle-rotated.png
+SHA-256-Digest: bcheCnGcqpDfEF2Eq+QzoB4nJ/e960iACO49rSnhH5I=
+
+Name: images/macHandle@2x.png
+SHA-256-Digest: kRSi7ZrhqIRgcMsdMWHOuHmZgTcLg118XC25KYH24JM=
+
+Name: css/dark/e4-dark_tabstyle.css
+SHA-256-Digest: pj6aICUGbABfyxYkCORCLweXiy9jeCSy+SGmzvF2poQ=
+
+Name: images/macHandle-rotated@2x.png
+SHA-256-Digest: wxpSEua+/8DGevJIuik4mjLgPc5eIQ9f94dTzGckDsw=
+
+Name: images/winTSFrame-rotated.png
+SHA-256-Digest: mPGhzjTMLb1uKsHowoZZcWDfxeK9Gf3yIs4Fl+pe1rQ=
+
+Name: images/winXPHandle.png
+SHA-256-Digest: s3/0H+S3dBrltFYEwob3j2NSA7Q17ptmQFIIVllE4Tk=
+
+Name: images/winHandle-rotated@2x.png
+SHA-256-Digest: wxpSEua+/8DGevJIuik4mjLgPc5eIQ9f94dTzGckDsw=
+
+Name: css/high-contrast.css
+SHA-256-Digest: EJNyP7OR9Ep+7BXpGImKfj2F3ASseBlE1QVuLJtRbt4=
+
+Name: images/gtkHandle-rotated@2x.png
+SHA-256-Digest: wxpSEua+/8DGevJIuik4mjLgPc5eIQ9f94dTzGckDsw=
+
+Name: images/dragHandle-rotated.png
+SHA-256-Digest: 534DYoa0ewt0oTebrhWYVx1UK8o5IwwH8sFCbhWY+ak=
+
+Name: images/gtkTSFrame-rotated@2x.png
+SHA-256-Digest: CNEFfQuxe+b6bfpxXNPB4wS9G7EDPSdCL7U+WViWAFg=
+
+Name: css/e4-dark_mac1013.css
+SHA-256-Digest: KOMQ/VKDRYg495Ry1sDLhCijWpiWxStKaiRgbwDZQd8=
+
+Name: images/winClassicHandle-rotated.png
+SHA-256-Digest: bcheCnGcqpDfEF2Eq+QzoB4nJ/e960iACO49rSnhH5I=
+
+Name: images/winClassicHandle@2x.png
+SHA-256-Digest: kRSi7ZrhqIRgcMsdMWHOuHmZgTcLg118XC25KYH24JM=
+
+Name: css/dark/e4-dark-drag-styling.css
+SHA-256-Digest: VGreyzIVG0lnMzKlHS46ybUFanT6TeBBVLCEN7Fw3CU=
+
+Name: images/gtkTSFrame.png
+SHA-256-Digest: EKCZEI8YArOHlHFgVzUESzeau67PbXcJIOpJXoZvbV0=
+
+Name: css/light/e4-light-drag-styling.css
+SHA-256-Digest: V8ork1nbLn8E7oai0J7SB41VREqypsebsLS4U7akwP0=
+
+Name: css/e4-dark_win.css
+SHA-256-Digest: D8wcbSlqwHN/KfEW3FPI5kyKoD9W6ZooZ14T0qlrhr8=
+
+Name: css/e4_classic.css
+SHA-256-Digest: xHPQuUaG6ADjkzH8zayx56nglYOZL9oKKqjYaXKSHm4=
+
+Name: images/dragHandle-rotated@2x.png
+SHA-256-Digest: JdNVN9iuYp7AISkSy+Gd+BqcycX0ejvvRf9aBx8sT0A=
+
+Name: css/light/e4-light_tabstyle.css
+SHA-256-Digest: NppbkXjTrjkM0Pve7M/uL3oXlvswf4tuX1aAt05QtuU=
+
+Name: images/winTSFrame@2x.png
+SHA-256-Digest: aYHpfbxfJsO8cIpzxYpbua4GOzkxHfiGY307zraRL5w=
+
+Name: images/macTSFrame-rotated@2x.png
+SHA-256-Digest: 1uH5PL4Eijep1ZDIr3KJi3A2tSj2DvgNoh+xfvQQKSQ=
+
+Name: css/e4_default_mac.css
+SHA-256-Digest: RaMum7OTjPMz/CTkWmluwtEuNApjZLhw/scUjOHaj+U=
+
+Name: images/winHandle@2x.png
+SHA-256-Digest: kRSi7ZrhqIRgcMsdMWHOuHmZgTcLg118XC25KYH24JM=
+
+Name: about.html
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: images/winXPTSFrame.png
+SHA-256-Digest: rQFFUcvpTqeqZCQlhtNrqifvYR8txggkm7bzRbehZB0=
+
+Name: images/winXPTSFrame@2x.png
+SHA-256-Digest: 5Qo5m2Voqh1WSKE5EYyq9fMzNk79m08bDoNk47sG3ms=
+
+Name: images/macTSFrame@2x.png
+SHA-256-Digest: KT4vLhhDeeYsl6tXavVWdCcIYfM8uZkDOUA3+9ymZGE=
+
+Name: images/macTSFrame-rotated.png
+SHA-256-Digest: 6Rz3WbzACgLJ9RlhkF08oj10ZeH6YVU96DEDqaS+sFQ=
+
+Name: images/dragHandle.png
+SHA-256-Digest: uCsTBeqlRoxjmVky/RSDO96vLGrOYhbFx44Cb2kTrsI=
+
+Name: images/winXPHandle@2x.png
+SHA-256-Digest: kRSi7ZrhqIRgcMsdMWHOuHmZgTcLg118XC25KYH24JM=
+
+Name: images/gtkTSFrame-rotated.png
+SHA-256-Digest: 1npUEyWe3IrJJZP0yYhsT1YZ36T1OG94GJa8YdaOKJE=
+
+Name: css/light/e4-light_partstyle.css
+SHA-256-Digest: dPicPIaZiolZj5HYOLTvH+VTqkYhi5Y+e2a8NQ4xCqI=
+
+Name: images/winXPHandle-rotated@2x.png
+SHA-256-Digest: wxpSEua+/8DGevJIuik4mjLgPc5eIQ9f94dTzGckDsw=
+
+Name: css/light/e4-light_ide_colorextensions.css
+SHA-256-Digest: Z2CE2vxOhO6kflIq0KjraR6VY5nv6BNskYQKbgFj8B0=
+
+Name: images/winTSFrame-rotated@2x.png
+SHA-256-Digest: iKfP2/4BhTn88Qjv5bHCXRiRizHuyByY3FVpJAUhKOw=
+
+Name: css/dark/e4-dark_preferencestyle.css
+SHA-256-Digest: uiJEu1bM4seVyy4YvWQSp0z3K5VO1OwZ8Z6sMo6tDKw=
+
+Name: css/common/e4_globalstyle.css
+SHA-256-Digest: SubRtS54fATXX0m4NCDH1aPdA33pkrn3cL4JSnILcEc=
+
+Name: images/gtkHandle-rotated.png
+SHA-256-Digest: bcheCnGcqpDfEF2Eq+QzoB4nJ/e960iACO49rSnhH5I=
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.launch.remote"
+      label="%featureName"
+      version="10.0.0.202008310002"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.remote" version="0.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.cdt.launch.remote"
+         download-size="72"
+         install-size="134"
+         version="2.6.0.202008310002"
+         unpack="false"/>
+
+</feature>

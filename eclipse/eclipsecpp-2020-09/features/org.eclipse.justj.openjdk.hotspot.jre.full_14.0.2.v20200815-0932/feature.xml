@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2020 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+-->
+<feature
+      id="org.eclipse.justj.openjdk.hotspot.jre.full"
+      label="%featureName"
+      version="14.0.2.v20200815-0932"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full"
+         download-size="19"
+         install-size="62"
+         version="14.0.2.v20200815-0932"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64"
+         os="linux"
+         arch="x86_64"
+         download-size="74695"
+         install-size="97882"
+         version="14.0.2.v20200815-0932"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64"
+         os="macosx"
+         arch="x86_64"
+         download-size="72105"
+         install-size="90292"
+         version="14.0.2.v20200815-0932"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         download-size="72953"
+         install-size="90838"
+         version="14.0.2.v20200815-0932"
+         fragment="true"/>
+
+</feature>

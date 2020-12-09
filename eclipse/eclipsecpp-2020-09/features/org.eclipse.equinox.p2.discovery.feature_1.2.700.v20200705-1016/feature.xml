@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.p2.discovery.feature"
+      label="%featureName"
+      version="1.2.700.v20200705-1016"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.equinox.p2.discovery"
+         download-size="37"
+         install-size="74"
+         version="1.1.200.v20190611-1008"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.discovery.compatibility"
+         download-size="57"
+         install-size="128"
+         version="1.1.200.v20190611-1008"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.discovery"
+         download-size="153"
+         install-size="293"
+         version="1.1.600.v20200705-1016"
+         unpack="false"/>
+
+</feature>
