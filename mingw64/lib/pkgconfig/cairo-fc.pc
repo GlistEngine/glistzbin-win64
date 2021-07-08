@@ -1,0 +1,9 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-fc
+Description: Fontconfig font backend for cairo graphics library
+Version: 1.17.4
+Requires: cairo, fontconfig >=  2.2.95
+Cflags: -I${includedir}

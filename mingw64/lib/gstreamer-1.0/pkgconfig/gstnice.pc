@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstnice
+Description: libnice: gstnice
+Version: 0.1.17
+Requires.private: nice, gio-2.0 >=  2.54, gthread-2.0, openssl, gstreamer-base-1.0 >=  1.0.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstnice
+Libs.private: -liphlpapi -lws2_32
+Cflags: -I${includedir}

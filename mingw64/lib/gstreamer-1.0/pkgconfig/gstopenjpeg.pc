@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstopenjpeg
+Description: gst-plugins-bad: gstopenjpeg
+Version: 1.19.1
+Requires.private: gstreamer-codecparsers-1.0, gstreamer-1.0 >=  1.19.0, gstreamer-video-1.0 >=  1.19.0, libopenjp2 >= 2.2, gstreamer-base-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstopenjpeg
+Libs.private: -lm
+Cflags: -I${includedir}

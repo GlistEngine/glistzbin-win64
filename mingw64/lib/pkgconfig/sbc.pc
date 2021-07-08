@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=${prefix}
+libdir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib
+includedir=${prefix}/include
+
+Name: SBC
+Description: SBC library
+Version: 1.3
+Libs: -L${libdir} -lsbc
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libsrtp2
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+Version: 2.3.0
+Libs: -L${libdir} -lsrtp2
+Libs.private: -lws2_32
+Cflags: -I${includedir}

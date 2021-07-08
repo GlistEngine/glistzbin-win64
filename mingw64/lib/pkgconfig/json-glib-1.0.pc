@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: JSON-GLib
+Description: JSON Parser for GLib.
+Version: 1.6.2
+Requires: gio-2.0 >=  2.54.0
+Libs: -L${libdir} -ljson-glib-1.0
+Cflags: -I${includedir}/json-glib-1.0

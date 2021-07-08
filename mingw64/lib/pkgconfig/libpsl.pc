@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpsl
+Description: Public Suffix List C library
+Version: 0.20.2
+Libs: -L${libdir} -lpsl
+Libs.private: -lws2_32
+Cflags: -I${includedir}

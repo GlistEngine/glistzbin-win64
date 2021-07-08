@@ -1,0 +1,12 @@
+prefix=C:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: srt
+Description: SRT library set
+Version: 1.4.2
+Libs: -L${libdir} -lsrt   
+Libs.private:  -lwsock32 -lws2_32 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex
+Cflags: -I${includedir} -I${includedir}/srt
+Requires.private: openssl libcrypto

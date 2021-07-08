@@ -1,0 +1,14 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=${prefix}
+libdir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib
+includedir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.51.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm -luser32 -lbcrypt
+Cflags: -I${includedir}

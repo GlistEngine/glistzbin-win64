@@ -1,0 +1,24 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+exec_prefix=${prefix}
+toolsdir=${exec_prefix}/bin
+pluginsdir=${libdir}/gstreamer-1.0
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+girdir=${datadir}/gir-1.0
+typelibdir=${libdir}/girepository-1.0
+libexecdir=${prefix}/libexec
+gl_platforms=wgl
+gl_winsys=win32
+gl_apis=gl
+
+Name: gstreamer-gl-1.0
+Description: Streaming media framework, OpenGL plugins libraries
+Version: 1.19.1
+Requires: gstreamer-video-1.0, gstreamer-base-1.0 >=  1.19.0, gstreamer-1.0 >=  1.19.0
+Requires.private: gstreamer-allocators-1.0, orc-0.4 >=  0.4.24, gmodule-no-export-2.0
+Libs: -L${libdir} -lgstgl-1.0
+Libs.private: -lm -lopengl32 -lgdi32
+Cflags: -I${includedir}/gstreamer-1.0 -I${libdir}/gstreamer-1.0/include

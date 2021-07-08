@@ -1,0 +1,13 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+gmodule_supported=true
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Version: 2.62.6
+Requires: glib-2.0
+Libs: -L${libdir} -lgmodule-2.0
+Libs.private: -lintl
+Cflags: -I${includedir}

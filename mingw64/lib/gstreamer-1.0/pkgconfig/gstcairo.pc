@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstcairo
+Description: gst-plugins-good: gstcairo
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0, gstreamer-video-1.0 >=  1.19.0, cairo-gobject >= 1.10.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstcairo
+Cflags: -I${includedir}

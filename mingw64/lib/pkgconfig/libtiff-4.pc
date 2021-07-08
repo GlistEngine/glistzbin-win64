@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=${prefix}
+libdir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib
+includedir=${prefix}/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.0.10
+Libs: -L${libdir} -ltiff
+Libs.private: -ljpeg -lz 
+Cflags: -I${includedir}

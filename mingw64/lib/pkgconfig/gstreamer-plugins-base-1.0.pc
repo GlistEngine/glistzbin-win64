@@ -1,0 +1,19 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+exec_prefix=${prefix}
+toolsdir=${exec_prefix}/bin
+pluginsdir=${libdir}/gstreamer-1.0
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+girdir=${datadir}/gir-1.0
+typelibdir=${libdir}/girepository-1.0
+libexecdir=${prefix}/libexec
+libraries=allocators app audio fft pbutils riff rtp rtsp sdp tag video gl
+
+Name: gstreamer-plugins-base-1.0
+Description: Streaming media framework, base plugins libraries
+Version: 1.19.1
+Requires: gstreamer-1.0 >=  1.19.0
+Cflags: -I${includedir}/gstreamer-1.0

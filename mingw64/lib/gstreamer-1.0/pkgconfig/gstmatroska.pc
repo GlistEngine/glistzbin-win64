@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstmatroska
+Description: gst-plugins-good: gstmatroska
+Version: 1.19.1
+Requires.private: gstreamer-pbutils-1.0 >=  1.19.0, gstreamer-audio-1.0 >=  1.19.0, gstreamer-riff-1.0 >=  1.19.0, gstreamer-video-1.0 >=  1.19.0, gstreamer-tag-1.0 >=  1.19.0, gstreamer-base-1.0 >=  1.19.0, gstreamer-1.0 >=  1.19.0, zlib
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstmatroska
+Libs.private: -lbz2 -lm
+Cflags: -I${includedir}

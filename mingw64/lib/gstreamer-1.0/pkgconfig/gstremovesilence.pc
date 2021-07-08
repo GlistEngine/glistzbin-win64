@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstremovesilence
+Description: gst-plugins-bad: gstremovesilence
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0, gstreamer-audio-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstremovesilence
+Libs.private: -lm
+Cflags: -I${includedir}

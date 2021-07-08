@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstvideoconvert
+Description: gst-plugins-base: gstvideoconvert
+Version: 1.19.1
+Requires.private: gstreamer-video-1.0, gstreamer-base-1.0 >=  1.19.0, orc-0.4 >=  0.4.24
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstvideoconvert
+Libs.private: -lm
+Cflags: -I${includedir}

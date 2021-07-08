@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstdebug
+Description: gst-plugins-good: gstdebug
+Version: 1.19.1
+Requires.private: gstreamer-1.0 >=  1.19.0, gstreamer-base-1.0 >=  1.19.0, gstreamer-video-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstdebug
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstalaw
+Description: gst-plugins-good: gstalaw
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0, gstreamer-audio-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstalaw
+Cflags: -I${includedir}

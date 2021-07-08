@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstd3d11
+Description: gst-plugins-bad: gstd3d11
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0, gstreamer-video-1.0 >=  1.19.0, gmodule-2.0, gstreamer-codecparsers-1.0, gstreamer-controller-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstd3d11
+Libs.private: -ld3d11 -ldxgi -L${libdir} -lgstd3d11-1.0 -lgstcodecs-1.0
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=${prefix}
+libdir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.2.7
+Description: expat XML parser
+URL: http://www.libexpat.org
+Libs: -L${libdir} -lexpat
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstlame
+Description: gst-plugins-good: gstlame
+Version: 1.19.1
+Requires.private: gstreamer-audio-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstlame
+Libs.private: -lmp3lame
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstgdp
+Description: gst-plugins-bad: gstgdp
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstgdp
+Cflags: -I${includedir}

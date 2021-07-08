@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstcamerabin
+Description: gst-plugins-bad: gstcamerabin
+Version: 1.19.1
+Requires.private: gstreamer-app-1.0 >=  1.19.0, gstreamer-photography-1.0, gstreamer-1.0 >=  1.19.0, gstreamer-tag-1.0 >=  1.19.0, gstreamer-pbutils-1.0 >=  1.19.0, gstreamer-base-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstcamerabin
+Libs.private: -L${libdir} -lgstbasecamerabinsrc-1.0
+Cflags: -I${includedir}

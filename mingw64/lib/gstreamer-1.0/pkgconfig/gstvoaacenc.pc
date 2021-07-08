@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstvoaacenc
+Description: gst-plugins-bad: gstvoaacenc
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0, gstreamer-pbutils-1.0 >=  1.19.0, gstreamer-audio-1.0 >=  1.19.0, vo-aacenc
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstvoaacenc
+Cflags: -I${includedir}

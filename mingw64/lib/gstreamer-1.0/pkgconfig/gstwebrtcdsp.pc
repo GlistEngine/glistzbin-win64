@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstwebrtcdsp
+Description: gst-plugins-bad: gstwebrtcdsp
+Version: 1.19.1
+Requires.private: gstreamer-bad-audio-1.0, gstreamer-base-1.0 >=  1.19.0, gstreamer-audio-1.0 >=  1.19.0, webrtc-audio-processing >=  0.2, webrtc-audio-processing <  0.4
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstwebrtcdsp
+Cflags: -I${includedir}

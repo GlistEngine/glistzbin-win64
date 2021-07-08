@@ -1,0 +1,22 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+exec_prefix=${prefix}
+toolsdir=${exec_prefix}/bin
+pluginsdir=${libdir}/gstreamer-1.0
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+girdir=${datadir}/gir-1.0
+typelibdir=${libdir}/girepository-1.0
+libexecdir=${prefix}/libexec
+pluginscannerdir=${libexecdir}/gstreamer-1.0
+
+Name: gstreamer-check-1.0
+Description: Unit testing helper library for GStreamer modules
+Version: 1.19.1
+Requires: gstreamer-1.0
+Requires.private: gobject-2.0, glib-2.0 >= 2.56.0, gmodule-2.0
+Libs: -L${libdir} -lgstcheck-1.0
+Libs.private: -lm
+Cflags: -I${includedir}/gstreamer-1.0

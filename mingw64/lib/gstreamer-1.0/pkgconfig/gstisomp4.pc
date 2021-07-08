@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstisomp4
+Description: gst-plugins-good: gstisomp4
+Version: 1.19.1
+Requires.private: gstreamer-1.0 >=  1.19.0, gstreamer-riff-1.0 >=  1.19.0, gstreamer-audio-1.0 >=  1.19.0, gstreamer-video-1.0 >=  1.19.0, gstreamer-rtp-1.0 >=  1.19.0, gstreamer-tag-1.0 >=  1.19.0, gstreamer-pbutils-1.0 >=  1.19.0, zlib
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstisomp4
+Cflags: -I${includedir}

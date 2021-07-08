@@ -1,0 +1,14 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=${prefix}
+libdir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib
+includedir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.85.100
+Requires: 
+Requires.private: libavutil >= 56.51.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -lm
+Cflags: -I${includedir}

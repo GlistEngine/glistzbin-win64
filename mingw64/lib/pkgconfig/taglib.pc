@@ -1,0 +1,11 @@
+prefix=C:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=C:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=C:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib
+includedir=C:/projects/repos/cerbero.git/build/dist/mingw_x86_64/include
+
+Name: TagLib
+Description: Audio meta-data library
+Requires: 
+Version: 1.11.1
+Libs: -L${libdir} -ltag
+Cflags: -I${includedir}/taglib

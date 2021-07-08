@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstxingmux
+Description: gst-plugins-ugly: gstxingmux
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstxingmux
+Cflags: -I${includedir}

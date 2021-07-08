@@ -1,0 +1,16 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+sysconfdir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/etc
+localstatedir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/var
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.13.93
+Requires: freetype2 >=  21.0.15
+Requires.private: expat
+Libs: -L${libdir} -lfontconfig
+Cflags: -I${includedir}

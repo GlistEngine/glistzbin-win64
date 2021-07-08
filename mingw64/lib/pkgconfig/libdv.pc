@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libdv
+Description: DV software codec library
+Version: 1.0.0
+Libs: -L${libdir} -ldv
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

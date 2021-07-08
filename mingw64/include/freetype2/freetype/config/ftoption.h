@@ -42,7 +42,7 @@ FT_BEGIN_HEADER
    *   the name of a directory that is included _before_ the FreeType include
    *   path during compilation.
    *
-   *   The default FreeType Makefiles and Jamfiles use the build directory
+   *   The default FreeType Makefiles use the build directory
    *   `builds/<system>` by default, but you can easily change that for your
    *   own projects.
    *
@@ -121,12 +121,10 @@ FT_BEGIN_HEADER
    * mitigate color fringes inherent to this technology, you also need to
    * explicitly set up LCD filtering.
    *
-   * Note that this feature is covered by several Microsoft patents and
-   * should not be activated in any default build of the library.  When this
-   * macro is not defined, FreeType offers alternative LCD rendering
-   * technology that produces excellent output without LCD filtering.
+   * When this macro is not defined, FreeType offers alternative LCD
+   * rendering technology that produces excellent output.
    */
-#define FT_CONFIG_OPTION_SUBPIXEL_RENDERING
+/* #define FT_CONFIG_OPTION_SUBPIXEL_RENDERING */
 
 
   /**************************************************************************
@@ -289,7 +287,7 @@ FT_BEGIN_HEADER
    *   options set by those programs have precedence, overwriting the value
    *   here with the configured one.
    */
-#define FT_CONFIG_OPTION_USE_HARFBUZZ
+/* #undef FT_CONFIG_OPTION_USE_HARFBUZZ */
 
 
   /**************************************************************************
@@ -305,7 +303,7 @@ FT_BEGIN_HEADER
    *   options set by those programs have precedence, overwriting the value
    *   here with the configured one.
    */
-#define FT_CONFIG_OPTION_USE_BROTLI
+/* #undef FT_CONFIG_OPTION_USE_BROTLI */
 
 
   /**************************************************************************
@@ -542,7 +540,7 @@ FT_BEGIN_HEADER
 
   /**************************************************************************
    *
-   * Define `TT_CONFIG_OPTION_COLOR_LAYERS` if you want to support coloured
+   * Define `TT_CONFIG_OPTION_COLOR_LAYERS` if you want to support colored
    * outlines (from the 'COLR'/'CPAL' tables) in all formats using the 'sfnt'
    * module (namely TrueType~& OpenType).
    */

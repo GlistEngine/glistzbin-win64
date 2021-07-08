@@ -1,0 +1,11 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gsthls
+Description: gst-plugins-bad: gsthls
+Version: 1.19.1
+Requires.private: gstreamer-base-1.0 >=  1.19.0, gstreamer-pbutils-1.0 >=  1.19.0, gstreamer-tag-1.0 >=  1.19.0, gstreamer-video-1.0 >=  1.19.0, openssl >=  1.0.1, gio-2.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgsthls
+Libs.private: -lm -L${libdir} -lgstadaptivedemux-1.0 -lgsturidownloader-1.0
+Cflags: -I${includedir}

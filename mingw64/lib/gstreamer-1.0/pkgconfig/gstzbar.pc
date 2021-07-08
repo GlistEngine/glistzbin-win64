@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstzbar
+Description: gst-plugins-bad: gstzbar
+Version: 1.19.1
+Requires.private: gstreamer-video-1.0 >=  1.19.0, zbar >=  0.9
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstzbar
+Cflags: -I${includedir}

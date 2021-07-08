@@ -1,0 +1,14 @@
+# pkg-config file from libvpx v1.8.1
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: vpx
+Description: WebM Project VPx codec implementation
+Version: 1.8.1
+Requires:
+Conflicts:
+Libs: -L${libdir} -lvpx -lm
+Libs.private: -pthread
+Cflags: -I${includedir}

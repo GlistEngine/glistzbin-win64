@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstamrnb
+Description: gst-plugins-ugly: gstamrnb
+Version: 1.19.1
+Requires.private: gstreamer-audio-1.0 >=  1.19.0, opencore-amrnb >=  0.1.3
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstamrnb
+Cflags: -I${includedir}

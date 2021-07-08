@@ -1,0 +1,10 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstrtspclientsink
+Description: gst-rtsp-server: gstrtspclientsink
+Version: 1.19.1
+Requires.private: gstreamer-rtsp-server-1.0, gstreamer-rtsp-1.0 >=  1.19.0, gstreamer-sdp-1.0 >=  1.19.0, gstreamer-rtp-1.0 >=  1.19.0, gstreamer-net-1.0 >=  1.19.0, gstreamer-app-1.0 >=  1.19.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstrtspclientsink
+Cflags: -I${includedir}

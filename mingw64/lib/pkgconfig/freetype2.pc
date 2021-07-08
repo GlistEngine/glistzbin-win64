@@ -1,0 +1,14 @@
+prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+exec_prefix=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64
+libdir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib
+includedir=c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.4.17
+Requires:
+Requires.private: zlib, bzip2, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

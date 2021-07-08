@@ -12,9 +12,9 @@
 # Modeled after libxml-config.
 
 version="1.6.37"
-prefix="/mingw64"
+prefix="c:/projects/repos/cerbero.git/build/dist/mingw_x86_64"
 exec_prefix="${prefix}"
-libdir="${exec_prefix}/lib"
+libdir="c:/projects/repos/cerbero.git/build/dist/mingw_x86_64/lib"
 includedir="${prefix}/include/libpng16"
 libs="-lpng16"
 all_libs="-lpng16 -lz "

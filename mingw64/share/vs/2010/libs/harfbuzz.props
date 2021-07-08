@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="$(CommonImported)!=true" Project="Common.props"/>
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros"/>
+	<PropertyGroup>
+		<harfbuzzImported>true</harfbuzzImported>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<AdditionalIncludeDirectories>$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\include\harfbuzz;$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\include\glib-2.0;$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\lib\glib-2.0\include;$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\include\cairo;$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\include\pixman-1;$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\include\freetype2;$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\include\libpng16;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ClCompile>
+		<Link>
+			<AdditionalLibraryDirectories>$(GSTREAMER_1_0_ROOT_MINGW_X86_64)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalDependencies>harfbuzz.lib;%(AdditionalDependencies)</AdditionalDependencies>
+		</Link>
+	</ItemDefinitionGroup>
+	<ItemGroup/>
+</Project>
