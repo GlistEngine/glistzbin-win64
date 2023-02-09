@@ -3,35 +3,30 @@
 <repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1599750231088'/>
+    <property name='p2.timestamp' value='1669922582430'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='5'>
-    <artifact classifier='binary' id='org.eclipse.platform.ide.executable.win32.win32.x86_64' version='4.17.0.I20200902-1800'>
+  <artifacts size='4'>
+    <artifact classifier='binary' id='epp.package.cpp.executable.win32.win32.x86_64' version='4.26.0.20221201-1200'>
       <properties size='1'>
-        <property name='download.size' value='158538'/>
+        <property name='download.size' value='276727'/>
       </properties>
     </artifact>
-    <artifact classifier='binary' id='epp.package.cpp.executable.win32.win32.x86_64' version='4.17.0.20200910-1200'>
+    <artifact classifier='binary' id='org.eclipse.rcp_root' version='4.26.0.v20221123-2302'>
       <properties size='1'>
-        <property name='download.size' value='158538'/>
+        <property name='download.size' value='20727'/>
       </properties>
     </artifact>
-    <artifact classifier='binary' id='org.eclipse.cdt_root' version='10.0.0.202009071455'>
+    <artifact classifier='binary' id='org.eclipse.cdt_root' version='11.0.0.202211300214'>
       <properties size='1'>
         <property name='download.size' value='3333'/>
       </properties>
     </artifact>
-    <artifact classifier='binary' id='org.eclipse.rcp_root' version='4.17.0.v20200902-1800'>
-      <properties size='1'>
-        <property name='download.size' value='26149'/>
-      </properties>
-    </artifact>
-    <artifact classifier='binary' id='org.eclipse.platform_root' version='4.17.0.v20200902-1800'>
+    <artifact classifier='binary' id='org.eclipse.platform_root' version='4.26.0.v20221123-2302'>
       <properties size='1'>
         <property name='download.size' value='196'/>
       </properties>

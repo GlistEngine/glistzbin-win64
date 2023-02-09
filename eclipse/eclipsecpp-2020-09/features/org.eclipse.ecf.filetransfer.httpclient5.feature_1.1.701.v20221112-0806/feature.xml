@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.filetransfer.httpclient5.feature"
+      label="%featureName"
+      version="1.1.701.v20221112-0806"
+      provider-name="%providerName">
+
+   <description url="%descriptionURL">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.filetransfer.feature" version="3.9.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.provider.filetransfer.httpclient5"
+         download-size="84"
+         install-size="186"
+         version="1.0.401.v20221105-0315"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.filetransfer.httpclient5.win32"
+         os="win32"
+         download-size="24"
+         install-size="50"
+         version="1.0.501.v20221105-0315"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="370"
+         install-size="703"
+         version="1.14.0.v20221112-0806"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="71"
+         install-size="145"
+         version="1.2.0.v20180409-1502"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.client5.httpclient5"
+         download-size="844"
+         install-size="1964"
+         version="5.1.3.v20221013-1742"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.client5.httpclient5-win"
+         os="win32"
+         download-size="29"
+         install-size="57"
+         version="5.1.3.v20221013-1742"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.core5.httpcore5"
+         download-size="909"
+         install-size="1992"
+         version="5.1.4.v20221013-1742"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.core5.httpcore5-h2"
+         download-size="262"
+         install-size="582"
+         version="5.1.4.v20221013-1742"
+         unpack="false"/>
+
+</feature>

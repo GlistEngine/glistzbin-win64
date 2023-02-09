@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright (c) 2008, 2021 Contributors to the Eclipse Foundation
+
+   This program and the accompanying materials
+   are made available under the terms of the Eclipse Public License 2.0
+   which accompanies this distribution, and is available at
+   https://www.eclipse.org/legal/epl-2.0/
+
+   SPDX-License-Identifier: EPL-2.0
+-->
+<feature
+      id="org.eclipse.cdt.platform"
+      label="%featureName"
+      version="11.0.0.202211300214"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.platform.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.cdt.native"
+         version="11.0.0.202211300214"/>
+
+   <plugin
+         id="org.eclipse.cdt"
+         download-size="17"
+         install-size="48"
+         version="11.0.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.core"
+         download-size="5994"
+         install-size="13665"
+         version="8.0.0.202211292120"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.codan.core"
+         download-size="152"
+         install-size="321"
+         version="4.2.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.codan.ui"
+         download-size="134"
+         install-size="306"
+         version="3.5.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.codan.core.cxx"
+         download-size="79"
+         install-size="182"
+         version="3.6.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.codan.ui.cxx"
+         download-size="31"
+         install-size="85"
+         version="3.7.0.202211101937"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.codan.checkers"
+         download-size="160"
+         install-size="391"
+         version="3.5.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.codan.checkers.ui"
+         download-size="69"
+         install-size="171"
+         version="3.4.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.debug.core"
+         download-size="331"
+         install-size="701"
+         version="8.8.0.202211072232"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.debug.ui"
+         download-size="1076"
+         install-size="2244"
+         version="8.5.0.202211100047"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.make.core"
+         download-size="465"
+         install-size="1020"
+         version="7.6.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.make.ui"
+         download-size="515"
+         install-size="1058"
+         version="8.2.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.managedbuilder.core"
+         download-size="1471"
+         install-size="3508"
+         version="9.5.0.202211211546"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.managedbuilder.headlessbuilderapp"
+         download-size="18"
+         install-size="54"
+         version="1.1.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.managedbuilder.ui"
+         download-size="523"
+         install-size="1109"
+         version="9.4.0.202211211546"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.ui"
+         download-size="6340"
+         install-size="13898"
+         version="8.0.0.202211292120"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.doc.user"
+         download-size="8069"
+         install-size="9368"
+         version="5.5.0.202211211546"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.dsf"
+         download-size="346"
+         install-size="716"
+         version="2.12.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.dsf.ui"
+         download-size="1472"
+         install-size="3329"
+         version="2.7.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.flatpak.launcher"
+         download-size="39"
+         install-size="106"
+         version="1.1.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.native.serial"
+         download-size="171"
+         install-size="653"
+         version="1.3.0.202211300214"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.platform.branding"
+         download-size="22"
+         install-size="61"
+         version="11.0.0.202211062329"
+         unpack="false"/>
+
+</feature>

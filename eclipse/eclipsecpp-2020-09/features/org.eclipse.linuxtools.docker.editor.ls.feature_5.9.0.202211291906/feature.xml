@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.linuxtools.docker.editor.ls.feature"
+      label="%featureName"
+      version="5.9.0.202211291906"
+      provider-name="%featureProvider">
+
+   <description url="http://www.eclipse.org/linuxtools">
+      %featureDescription
+   </description>
+
+   <copyright url="http://www.redhat.com">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="Linux Tools Docker Update Site" url="http://download.eclipse.org/linuxtools/update-docker"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.linuxtools.docker.editor.ls"
+         download-size="608"
+         install-size="2414"
+         version="1.0.1.202211291906"/>
+
+</feature>

@@ -1,0 +1,5 @@
+instructions.configure=\
+org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(location:http${#58}//download.eclipse.org/linuxtools/update,type:0); \
+org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(location:http${#58}//download.eclipse.org/linuxtools/update,type:1); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//download.eclipse.org/linuxtools/update,type:0,name:Linux Tools,enabled:false); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//download.eclipse.org/linuxtools/update,type:1,name:Linux Tools,enabled:false); 

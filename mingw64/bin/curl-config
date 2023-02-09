@@ -6,7 +6,7 @@
 #                            | (__| |_| |  _ <| |___
 #                             \___|\___/|_| \_\_____|
 #
-# Copyright (C) 2001 - 2020, Daniel Stenberg, <daniel@haxx.se>, et al.
+# Copyright (C) 2001 - 2022, Daniel Stenberg, <daniel@haxx.se>, et al.
 #
 # This software is licensed as described in the file COPYING, which
 # you should have received as part of this distribution. The terms
@@ -19,9 +19,11 @@
 # This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
 # KIND, either express or implied.
 #
+# SPDX-License-Identifier: curl
+#
 ###########################################################################
 
-prefix=/mingw64
+prefix="/mingw64"
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -72,7 +74,7 @@ while test $# -gt 0; do
         ;;
 
     --ca)
-        echo "/mingw64/ssl/certs/ca-bundle.crt"
+        echo "/mingw64/etc/ssl/certs/ca-bundle.crt"
         ;;
 
     --cc)
@@ -84,7 +86,7 @@ while test $# -gt 0; do
         ;;
 
     --feature|--features)
-        for feature in AsynchDNS HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile MultiSSL NTLM SPNEGO SSL SSPI TLS-SRP alt-svc brotli libz zstd ""; do
+        for feature in AsynchDNS HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile MultiSSL NTLM SPNEGO SSL SSPI TLS-SRP UnixSockets alt-svc brotli libz threadsafe zstd ""; do
             test -n "$feature" && echo "$feature"
         done
         ;;
@@ -96,7 +98,7 @@ while test $# -gt 0; do
         ;;
 
     --version)
-        echo libcurl 7.77.0
+        echo libcurl 7.87.0
         exit 0
         ;;
 
@@ -108,11 +110,11 @@ while test $# -gt 0; do
         # dash as that's used for things like version 1.2.3-CVS
         cpatch=`echo $checkfor | cut -d. -f3 | cut -d- -f1`
 
-        vmajor=`echo 7.77.0 | cut -d. -f1`
-        vminor=`echo 7.77.0 | cut -d. -f2`
+        vmajor=`echo 7.87.0 | cut -d. -f1`
+        vminor=`echo 7.87.0 | cut -d. -f2`
         # when extracting the patch part we strip off everything after a
         # dash as that's used for things like version 1.2.3-CVS
-        vpatch=`echo 7.77.0 | cut -d. -f3 | cut -d- -f1`
+        vpatch=`echo 7.87.0 | cut -d. -f3 | cut -d- -f1`
 
         if test "$vmajor" -gt "$cmajor"; then
             exit 0;
@@ -128,12 +130,12 @@ while test $# -gt 0; do
             fi
         fi
 
-        echo "requested version $checkfor is newer than existing 7.77.0"
+        echo "requested version $checkfor is newer than existing 7.87.0"
         exit 1
         ;;
 
     --vernum)
-        echo 074d00
+        echo 075700
         exit 0
         ;;
 
@@ -161,18 +163,18 @@ while test $# -gt 0; do
            CURLLIBDIR=""
         fi
         if test "Xyes" = "Xno"; then
-          echo ${CURLLIBDIR}-lcurl -lnghttp2 -lidn2 -lssh2 -L/mingw64/lib -lssh2 -lpsl -ladvapi32 -lcrypt32 -lssl -lcrypto -lssl -lcrypto -lgdi32 -lwldap32 -lzstd -lzstd -lbrotlidec -lbrotlidec -lz -lws2_32
+          echo ${CURLLIBDIR}-lcurl -lnghttp2 -lidn2 -lssh2 -lssh2 -lpsl -lbcrypt -ladvapi32 -lcrypt32 -lbcrypt -lssl -lcrypto -lssl -lcrypto -lgdi32 -lwldap32 -lzstd -lzstd -lbrotlidec -lbrotlidec -lz -lws2_32
         else
           echo ${CURLLIBDIR}-lcurl
         fi
         ;;
     --ssl-backends)
-        echo "Schannel, OpenSSL"
+        echo "Schannel, OpenSSL v3+"
         ;;
 
     --static-libs)
         if test "Xno" != "Xno" ; then
-          echo ${exec_prefix}/lib/libcurl.a -pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -L/mingw64/lib -L/mingw64/lib -L/mingw64/lib -L/mingw64/lib -L/mingw64/lib -L/mingw64/lib -L/mingw64/lib -L/mingw64/lib -lnghttp2 -lidn2 -lssh2 -L/mingw64/lib -lssh2 -lpsl -ladvapi32 -lcrypt32 -lssl -lcrypto -lssl -lcrypto -lgdi32 -lwldap32 -lzstd -lzstd -lbrotlidec -lbrotlidec -lz -lws2_32
+          echo "${exec_prefix}/lib/libcurl.a" -pipe -lnghttp2 -lidn2 -lssh2 -lssh2 -lpsl -lbcrypt -ladvapi32 -lcrypt32 -lbcrypt -lssl -lcrypto -lssl -lcrypto -lgdi32 -lwldap32 -lzstd -lzstd -lbrotlidec -lbrotlidec -lz -lws2_32
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1
@@ -180,7 +182,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--prefix=/mingw64' '--build=x86_64-w64-mingw32' '--host=x86_64-w64-mingw32' '--target=x86_64-w64-mingw32' '--without-random' '--disable-static' '--enable-shared' '--enable-sspi' '--enable-ldap' '--enable-ldaps' '--with-brotli' '--with-ldap-lib=wldap32' '--with-libmetalink=/mingw64' '--with-libssh2' '--with-zstd' '--with-default-ssl-backend=openssl' '--with-openssl' '--with-schannel' '--with-ca-bundle=/mingw64/ssl/certs/ca-bundle.crt' '--with-nghttp2=/mingw64' '--without-librtmp' '--disable-debug' 'build_alias=x86_64-w64-mingw32' 'host_alias=x86_64-w64-mingw32' 'target_alias=x86_64-w64-mingw32' 'CC=gcc' 'CFLAGS=-march=x86-64 -mtune=generic -O2 -pipe' 'LDFLAGS=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' 'CPPFLAGS=-D__USE_MINGW_ANSI_STDIO=1'"
+        echo " '--prefix=/mingw64' '--build=x86_64-w64-mingw32' '--host=x86_64-w64-mingw32' '--target=x86_64-w64-mingw32' '--disable-pthreads' '--without-random' '--disable-static' '--enable-shared' '--enable-sspi' '--enable-ldap' '--enable-ldaps' '--with-brotli' '--with-ldap-lib=wldap32' '--with-libssh2' '--with-zstd' '--with-default-ssl-backend=openssl' '--with-openssl' '--with-schannel' '--with-ca-bundle=/mingw64/etc/ssl/certs/ca-bundle.crt' '--with-nghttp2=/mingw64' '--without-librtmp' '--disable-debug' 'build_alias=x86_64-w64-mingw32' 'host_alias=x86_64-w64-mingw32' 'target_alias=x86_64-w64-mingw32' 'CC=gcc' 'CFLAGS=-march=nocona -msahf -mtune=generic -O2 -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong' 'LDFLAGS=-pipe' 'CPPFLAGS=-D__USE_MINGW_ANSI_STDIO=1'"
         ;;
 
     *)

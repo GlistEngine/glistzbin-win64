@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epp.package.common.feature"
+      label="Eclipse Packaging Project Common Feature"
+      version="4.26.0.20221201-1200"
+      provider-name="Eclipse Packaging Project">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.epp.package.common"
+         download-size="291"
+         install-size="440"
+         version="4.26.0.20221201-1200"
+         unpack="true"/>
+
+   <!-- JDT core is needed to make help work. See https://github.com/eclipse-platform/eclipse.platform.ua/issues/18 -->
+   <plugin
+         id="org.eclipse.jdt.core"
+         download-size="6884"
+         install-size="16238"
+         version="3.32.0.v20221108-1853"
+         unpack="true"/>
+
+</feature>

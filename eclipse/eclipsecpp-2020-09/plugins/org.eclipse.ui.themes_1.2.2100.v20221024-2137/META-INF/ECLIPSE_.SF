@@ -1,0 +1,84 @@
+Signature-Version: 1.0
+Created-By: 11.0.16.1 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: wD5nNCssM4CCWT3cji45n33YClr8vVCMRh0QVgrQ/Vw=
+SHA-256-Digest-Manifest-Main-Attributes: 1QZQzCGvAUN0SYQQKXD8bISSU+tOuye
+ Not1nFmKaJfI=
+
+Name: plugin.xml
+SHA-256-Digest: JrwWGtMXrdV6j7Y4HCTU1vEb3SEex4HF00F5D2u9BSI=
+
+Name: css/e4_default_gtk.css
+SHA-256-Digest: ObHN+2H3g9DsYDlArMghbBgYyiY2rl16+Ibjyh+QJ64=
+
+Name: css/high-contrast.css
+SHA-256-Digest: FJlJvsthZMNLfX82iF3yekfdgVyM9FU6LARCyvYKbFM=
+
+Name: css/e4-dark_mac1013.css
+SHA-256-Digest: OBt4pp8DFlyU7zYW++637hWcTLwSSRS1nA1DAvmxPwo=
+
+Name: css/e4-dark_mac.css
+SHA-256-Digest: 2Z4LZXUZh/4sVqsF9+3h4/PCga0FfTtAprST3qP6YEI=
+
+Name: css/dark/e4-dark-drag-styling.css
+SHA-256-Digest: HWLiLpa9W5XkeSS+u80O2dvHtdhmamUi0W6SHSDh6No=
+
+Name: css/e4-dark_linux.css
+SHA-256-Digest: X6puWWTzfMctHLho8DmjqukR90Wv3q5KhK4SXFl+Ntg=
+
+Name: css/light/e4-light-drag-styling.css
+SHA-256-Digest: NpAgE1usgpuJvqVTmREcDGVDxmx0jwzDeX+v7hPHlgg=
+
+Name: css/e4-dark_win.css
+SHA-256-Digest: wobAvDbNyNrYCPYp4yGYipcMUn4Qk42INnfS2Veod2Y=
+
+Name: css/e4_default_win.css
+SHA-256-Digest: rV8OeDQ1ZwWPUVc7TwK+6M89wv8/YgSu3jLyhBN42KE=
+
+Name: css/e4_classic.css
+SHA-256-Digest: dF7Z6rp2f/Wk1iHHfz4D3x9RuVuFD5RO9kAwk4XG6/8=
+
+Name: css/light/e4-light_globalstyle.css
+SHA-256-Digest: aYpZRGPBe521Jd0NcnfLPxC9AQdIEYLswRZ0DgJQGRA=
+
+Name: plugin.properties
+SHA-256-Digest: /IqqyCLqo/cgBc26hydC/3RsvGc2kgifp+Nc2ZF8nY8=
+
+Name: css/light/e4-light_tabstyle.css
+SHA-256-Digest: s92T2KPdAGYuamj7FeLUGRcA7/TM8QichOoKKASeax0=
+
+Name: css/dark/e4-dark_partstyle.css
+SHA-256-Digest: 7y3QP676jftwq90rfQ7m9KQh0+3fhMAjk31Xahf9tVU=
+
+Name: css/e4_default_mac.css
+SHA-256-Digest: +B9mLTLfbUwofBRfPZfJ0wwL3/7GC+AYhJP1L+Scojs=
+
+Name: about.html
+SHA-256-Digest: ncO+WCNUIJ0JLCOl/ot53yopwTqvvtVu0qSgblesdYo=
+
+Name: css/dark/e4-dark_globalstyle.css
+SHA-256-Digest: +N0TVSFe4GyOfNarbgslGMJTNWpnOTZWLMb4In9Q0tI=
+
+Name: .api_description
+SHA-256-Digest: Ot6h5gBPNTOkyiaZm1t3gwWPKVa8CxGbYRoPvr0joBU=
+
+Name: css/e4_basestyle.css
+SHA-256-Digest: pkb4yuk4RA8NNdtzxIuCY7+sRaqN/MNVTnV3sl7Dn3Y=
+
+Name: css/dark/e4-dark_ide_colorextensions.css
+SHA-256-Digest: 6jCOlaHUnxkmM1bvAkQzyvHPMXijNf3llKuqLacwq+c=
+
+Name: css/light/e4-light_partstyle.css
+SHA-256-Digest: XN9DsgS3Ecoc98fjRilSkp5F5YEhzjyJ8BHGd5OGtKU=
+
+Name: css/light/e4-light_ide_colorextensions.css
+SHA-256-Digest: a06x8YN+dGv8uTEoWUNcGcTuoleXu6m2f3CaIrJQzXA=
+
+Name: css/dark/e4-dark_tabstyle.css
+SHA-256-Digest: JRaGFSg5bVlK9O4qwe5SJ1GmkmtEDbt7fJLBAaEZhDA=
+
+Name: css/dark/e4-dark_preferencestyle.css
+SHA-256-Digest: 4SXZVgpLDi1WnsSCmr7QMfhtXlXgR6OOynIBhuPc1PE=
+
+Name: css/common/e4_globalstyle.css
+SHA-256-Digest: C+JsgoRdatY01p10t0x9nsG1fwrT+Oi6/RkJbpciQAU=
+

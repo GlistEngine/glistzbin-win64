@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item key="OUTSIDE_LOCATION" value="C:\dev\glist\glistengine\engine"/>
+		<item key="OUTSIDE_LOCATION" value="C:\dev\glist\myglistapps\GlistApp-OpenNN"/>
 	</section>
 	<section name="NewWizardAction">
 	</section>
 	<section name="CleanDialogSettings">
-		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="TOGGLE_SELECTED" value="true"/>
 		<item key="DIALOG_WIDTH" value="500"/>
 		<item key="DIALOG_HEIGHT" value="389"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="BUILD_NOW" value="true"/>
+		<item key="BUILD_ALL" value="true"/>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="380"/>

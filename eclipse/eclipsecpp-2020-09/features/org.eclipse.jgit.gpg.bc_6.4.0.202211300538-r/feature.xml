@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jgit.gpg.bc"
+      label="%featureName"
+      version="6.4.0.202211300538-r"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/jgit/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.jgit" version="6.4.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.jgit.gpg.bc"
+         download-size="66"
+         install-size="127"
+         version="6.4.0.202211300538-r"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

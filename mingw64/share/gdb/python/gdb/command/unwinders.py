@@ -1,5 +1,5 @@
 # Unwinder commands.
-# Copyright 2015-2018 Free Software Foundation, Inc.
+# Copyright 2015-2022 Free Software Foundation, Inc.
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -49,14 +49,16 @@ def parse_unwinder_command_args(arg):
         locus_regexp = argv[0]
         if argc >= 2:
             name_regexp = argv[1]
-    return (validate_regexp(locus_regexp, "locus"),
-            validate_regexp(name_regexp, "unwinder"))
+    return (
+        validate_regexp(locus_regexp, "locus"),
+        validate_regexp(name_regexp, "unwinder"),
+    )
 
 
 class InfoUnwinder(gdb.Command):
     """GDB command to list unwinders.
 
-    Usage: info unwinder [locus-regexp [name-regexp]]
+    Usage: info unwinder [LOCUS-REGEXP [NAME-REGEXP]]
 
     LOCUS-REGEXP is a regular expression matching the location of the
     unwinder.  If it is omitted, all registered unwinders from all
@@ -66,12 +68,10 @@ class InfoUnwinder(gdb.Command):
 
     NAME-REGEXP is a regular expression to filter unwinder names.  If
     this omitted for a specified locus, then all registered unwinders
-    in the locus are listed.
-    """
+    in the locus are listed."""
 
     def __init__(self):
-        super(InfoUnwinder, self).__init__("info unwinder",
-                                            gdb.COMMAND_STACK)
+        super(InfoUnwinder, self).__init__("info unwinder", gdb.COMMAND_STACK)
 
     def list_unwinders(self, title, unwinders, name_re):
         """Lists the unwinders whose name matches regexp.
@@ -86,22 +86,25 @@ class InfoUnwinder(gdb.Command):
         print(title)
         for unwinder in unwinders:
             if name_re.match(unwinder.name):
-                print("  %s%s" % (unwinder.name,
-                                  "" if unwinder.enabled else " [disabled]"))
+                print(
+                    "  %s%s"
+                    % (unwinder.name, "" if unwinder.enabled else " [disabled]")
+                )
 
     def invoke(self, arg, from_tty):
         locus_re, name_re = parse_unwinder_command_args(arg)
         if locus_re.match("global"):
-            self.list_unwinders("Global:", gdb.frame_unwinders,
-                                name_re)
+            self.list_unwinders("Global:", gdb.frame_unwinders, name_re)
         if locus_re.match("progspace"):
             cp = gdb.current_progspace()
-            self.list_unwinders("Progspace %s:" % cp.filename,
-                                cp.frame_unwinders, name_re)
+            self.list_unwinders(
+                "Progspace %s:" % cp.filename, cp.frame_unwinders, name_re
+            )
         for objfile in gdb.objfiles():
             if locus_re.match(objfile.filename):
-                self.list_unwinders("Objfile %s:" % objfile.filename,
-                                    objfile.frame_unwinders, name_re)
+                self.list_unwinders(
+                    "Objfile %s:" % objfile.filename, objfile.frame_unwinders, name_re
+                )
 
 
 def do_enable_unwinder1(unwinders, name_re, flag):
@@ -130,22 +133,24 @@ def do_enable_unwinder(arg, flag):
     if locus_re.match("global"):
         total += do_enable_unwinder1(gdb.frame_unwinders, name_re, flag)
     if locus_re.match("progspace"):
-        total += do_enable_unwinder1(gdb.current_progspace().frame_unwinders,
-                                     name_re, flag)
+        total += do_enable_unwinder1(
+            gdb.current_progspace().frame_unwinders, name_re, flag
+        )
     for objfile in gdb.objfiles():
         if locus_re.match(objfile.filename):
-            total += do_enable_unwinder1(objfile.frame_unwinders, name_re,
-                                         flag)
+            total += do_enable_unwinder1(objfile.frame_unwinders, name_re, flag)
     if total > 0:
         gdb.invalidate_cached_frames()
-    print("%d unwinder%s %s" % (total, "" if total == 1 else "s",
-                                "enabled" if flag else "disabled"))
+    print(
+        "%d unwinder%s %s"
+        % (total, "" if total == 1 else "s", "enabled" if flag else "disabled")
+    )
 
 
 class EnableUnwinder(gdb.Command):
     """GDB command to enable unwinders.
 
-    Usage: enable unwinder [locus-regexp [name-regexp]]
+    Usage: enable unwinder [LOCUS-REGEXP [NAME-REGEXP]]
 
     LOCUS-REGEXP is a regular expression specifying the unwinders to
     enable.  It can 'global', 'progspace', or the name of an objfile
@@ -153,13 +158,10 @@ class EnableUnwinder(gdb.Command):
 
     NAME_REGEXP is a regular expression to filter unwinder names.  If
     this omitted for a specified locus, then all registered unwinders
-    in the locus are affected.
-
-    """
+    in the locus are affected."""
 
     def __init__(self):
-        super(EnableUnwinder, self).__init__("enable unwinder",
-                                             gdb.COMMAND_STACK)
+        super(EnableUnwinder, self).__init__("enable unwinder", gdb.COMMAND_STACK)
 
     def invoke(self, arg, from_tty):
         """GDB calls this to perform the command."""
@@ -169,7 +171,7 @@ class EnableUnwinder(gdb.Command):
 class DisableUnwinder(gdb.Command):
     """GDB command to disable the specified unwinder.
 
-    Usage: disable unwinder [locus-regexp [name-regexp]]
+    Usage: disable unwinder [LOCUS-REGEXP [NAME-REGEXP]]
 
     LOCUS-REGEXP is a regular expression specifying the unwinders to
     disable.  It can 'global', 'progspace', or the name of an objfile
@@ -177,13 +179,10 @@ class DisableUnwinder(gdb.Command):
 
     NAME_REGEXP is a regular expression to filter unwinder names.  If
     this omitted for a specified locus, then all registered unwinders
-    in the locus are affected.
-
-    """
+    in the locus are affected."""
 
     def __init__(self):
-        super(DisableUnwinder, self).__init__("disable unwinder",
-                                              gdb.COMMAND_STACK)
+        super(DisableUnwinder, self).__init__("disable unwinder", gdb.COMMAND_STACK)
 
     def invoke(self, arg, from_tty):
         """GDB calls this to perform the command."""

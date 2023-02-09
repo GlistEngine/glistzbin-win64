@@ -1,1 +1,0 @@
-  -LC:/dev/glist/myglistapps/GlistApp/../../zbin/glistzbin-win64/mingw64/bin  libGlistEngine.dll.a -lassimp -lfreetype -lfmodL -lfmod -lglfw3 -lopengl32 -lglew32 -ldbghelp -lmsvcr100 -lpsapi -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.linuxtools.cdt.libhover.feature"
+      label="%featureName"
+      version="8.9.0.202211291906"
+      provider-name="%provider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="Linux Tools Update Site" url="http://download.eclipse.org/linuxtools/update"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.4.0" match="compatible"/>
+      <import plugin="org.eclipse.help" version="3.3.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.cdt.ui" version="5.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.2.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.linuxtools.cdt.libhover"
+         download-size="64"
+         install-size="119"
+         version="1.2.0.202211291906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.cdt.libhover.library.docs"
+         download-size="22"
+         install-size="40"
+         version="1.0.2.202211291906"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.cdt.libhover.glibc"
+         download-size="484"
+         install-size="2660"
+         version="1.2.1.202211291906"
+         unpack="false"/>
+
+</feature>
