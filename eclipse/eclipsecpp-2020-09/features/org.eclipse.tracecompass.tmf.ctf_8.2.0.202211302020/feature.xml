@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- For PDE build, remove "ws" and "arch" -->
+<feature
+      id="org.eclipse.tracecompass.tmf.ctf"
+      label="%featureName"
+      version="8.2.0.202211302020"
+      provider-name="%featureProvider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.tracecompass.tmf"
+         version="8.2.0.202211302020"
+         name="Tracing and Monitoring Framework (TMF)"/>
+
+   <includes
+         id="org.eclipse.tracecompass.ctf"
+         version="8.2.0.202211302020"
+         name="Common Trace Format (CTF)"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.tracecompass.ctf.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.tracecompass.tmf.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.tracecompass.tmf.ui" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.help"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ctf.core"
+         download-size="78"
+         install-size="162"
+         version="4.4.0.202211302020"
+         unpack="false"/>
+
+</feature>

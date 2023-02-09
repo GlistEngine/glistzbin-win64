@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright (c) 2009, 2018 Red Hat, Inc.
+   
+   This program and the accompanying materials are made
+   available under the terms of the Eclipse Public License 2.0
+   which is available at https://www.eclipse.org/legal/epl-2.0/
+  
+   SPDX-License-Identifier: EPL-2.0
+
+   Contributors:
+       Red Hat - initial API and implementation
+-->
+<feature
+      id="org.eclipse.linuxtools.rpm"
+      label="%featureName"
+      version="8.9.0.202211291906"
+      provider-name="%provider">
+
+   <description url="http://www.eclipse.org/linuxtools/projectPages/specfile/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="Linux Tools Update Site" url="http://download.eclipse.org/linuxtools/update"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.linuxtools.rpm.core"
+         download-size="48"
+         install-size="98"
+         version="3.1.0.202211291906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.rpm.ui"
+         download-size="64"
+         install-size="123"
+         version="1.1.0.202211291906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.rpm.rpmlint"
+         download-size="62"
+         install-size="111"
+         version="1.1.0.202211291906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.rpm.ui.editor"
+         download-size="250"
+         install-size="524"
+         version="4.0.0.202211291906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.rpm.ui.editor.doc"
+         download-size="1876"
+         install-size="2011"
+         version="1.0.0.202211291906"/>
+
+    <plugin
+         id="org.eclipse.linuxtools.rpmstubby"
+         download-size="69"
+         install-size="126"
+         version="1.2.0.202211291906"/>
+    
+    <plugin
+         id="org.eclipse.linuxtools.rpm.createrepo"
+         download-size="99"
+         install-size="198"
+         version="1.0.0.202211291906"/>
+
+</feature>

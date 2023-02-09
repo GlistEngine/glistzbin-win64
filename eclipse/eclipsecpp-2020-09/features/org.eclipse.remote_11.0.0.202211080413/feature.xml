@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.remote"
+      label="%featureName"
+      version="11.0.0.202211080413"
+      provider-name="%providerName"
+      plugin="org.eclipse.remote.ui">
+
+   <description url="http://eclipse.org/remote">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.remote.core"
+         download-size="155"
+         install-size="311"
+         version="4.2.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.ui"
+         download-size="167"
+         install-size="347"
+         version="2.3.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.doc.isv"
+         download-size="464"
+         install-size="2216"
+         version="1.2.0.202211080413"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.jsch.core"
+         download-size="98"
+         install-size="225"
+         version="1.2.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.jsch.ui"
+         download-size="47"
+         install-size="110"
+         version="1.2.0.202211062329"
+         unpack="false"/>
+
+</feature>

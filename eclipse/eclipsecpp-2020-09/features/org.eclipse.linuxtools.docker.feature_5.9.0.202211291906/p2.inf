@@ -1,0 +1,14 @@
+instructions.configure=\
+org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(location:http${#58}//download.eclipse.org/linuxtools/update-docker,type:0); \
+org.eclipse.equinox.p2.touchpoint.eclipse.removeRepository(location:http${#58}//download.eclipse.org/linuxtools/update-docker,type:1); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//download.eclipse.org/linuxtools/update-docker,type:0,name:Linux Tools Docker Tooling,enabled:false); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:https${#58}//download.eclipse.org/linuxtools/update-docker,type:1,name:Linux Tools Docker Tooling,enabled:false); \
+org.eclipse.equinox.p2.touchpoint.eclipse.removeJvmArg(jvmArg:--add-opens=java.base/java.io=ALL-UNNAMED); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addJvmArg(jvmArg:--add-opens=java.base/java.io=ALL-UNNAMED); \
+org.eclipse.equinox.p2.touchpoint.eclipse.removeJvmArg(jvmArg:--add-opens=java.base/sun.nio.ch=ALL-UNNAMED); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addJvmArg(jvmArg:--add-opens=java.base/sun.nio.ch=ALL-UNNAMED); \
+org.eclipse.equinox.p2.touchpoint.eclipse.removeJvmArg(jvmArg:--add-opens=java.base/java.net=ALL-UNNAMED); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addJvmArg(jvmArg:--add-opens=java.base/java.net=ALL-UNNAMED); \
+org.eclipse.equinox.p2.touchpoint.eclipse.removeJvmArg(jvmArg:--add-opens=java.base/sun.security.ssl=ALL-UNNAMED); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addJvmArg(jvmArg:--add-opens=java.base/sun.security.ssl=ALL-UNNAMED);
+

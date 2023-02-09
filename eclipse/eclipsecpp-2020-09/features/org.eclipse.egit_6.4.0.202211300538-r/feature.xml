@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.egit"
+      label="%featureName"
+      version="6.4.0.202211300538-r"
+      provider-name="%providerName"
+      plugin="org.eclipse.egit">
+
+   <description url="https://www.eclipse.org/egit/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/egit/updates"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime" version="3.12.0" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.11.0" match="compatible"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.6.0" match="compatible"/>
+      <import plugin="org.eclipse.ui" version="3.108.0" match="compatible"/>
+      <import plugin="org.eclipse.team.ui" version="3.8.0" match="compatible"/>
+      <import plugin="org.eclipse.jface.text" version="3.11.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.ide" version="3.12.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="3.10.0" match="compatible"/>
+      <import plugin="org.eclipse.compare" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.core.net" version="1.3.0" match="compatible"/>
+      <import plugin="org.eclipse.team.core" version="3.8.0" match="compatible"/>
+      <import feature="org.eclipse.jgit" version="6.4.0" match="equivalent"/>
+      <import feature="org.eclipse.jgit.gpg.bc" version="6.4.0" match="equivalent"/>
+      <import feature="org.eclipse.jgit.http.apache" version="6.4.0" match="equivalent"/>
+      <import feature="org.eclipse.jgit.ssh.apache" version="6.4.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.egit.core"
+         download-size="627"
+         install-size="1342"
+         version="6.4.0.202211300538-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.ui"
+         download-size="3999"
+         install-size="8297"
+         version="6.4.0.202211300538-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit"
+         download-size="13"
+         install-size="16"
+         version="6.4.0.202211300538-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.doc"
+         download-size="4600"
+         install-size="5053"
+         version="6.4.0.202211300538-r"
+         unpack="false"/>
+
+</feature>

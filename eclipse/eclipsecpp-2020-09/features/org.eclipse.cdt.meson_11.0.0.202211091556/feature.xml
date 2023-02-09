@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright (c) 2018, 2021 Contributors to the Eclipse Foundation
+
+   This program and the accompanying materials
+   are made available under the terms of the Eclipse Public License 2.0
+   which accompanies this distribution, and is available at
+   https://www.eclipse.org/legal/epl-2.0/
+
+   SPDX-License-Identifier: EPL-2.0
+-->
+<feature
+      id="org.eclipse.cdt.meson"
+      label="%featureName"
+      version="11.0.0.202211091556"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.meson.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.meson.core"
+         download-size="47"
+         install-size="114"
+         version="1.2.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.meson.ui"
+         download-size="79"
+         install-size="179"
+         version="1.2.0.202211062329"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.meson.docs"
+         download-size="325"
+         install-size="404"
+         version="1.1.0.202211091556"/>
+
+   <plugin
+         id="org.eclipse.cdt.meson.ui.editor"
+         download-size="16"
+         install-size="51"
+         version="1.2.0.202211062329"
+         unpack="false"/>
+
+</feature>

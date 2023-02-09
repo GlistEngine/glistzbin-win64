@@ -1,0 +1,1175 @@
+# Copyright (c) 2020 Eclipse contributors and others.
+# 
+# This program and the accompanying materials
+# are made available under the terms of the Eclipse Public License 2.0
+# which accompanies this distribution, and is available at
+# https://www.eclipse.org/legal/epl-2.0/
+# 
+# SPDX-License-Identifier: EPL-2.0
+#
+
+instructions.install = \
+  org.eclipse.equinox.p2.touchpoint.eclipse.setJvm(jvm:${artifact.location}/jre/bin);
+
+instructions.uninstall = \
+  org.eclipse.equinox.p2.touchpoint.eclipse.setJvm(jvm:null);
+
+provides.0.namespace = osgi.ee
+provides.0.name = OSGi/Minimum
+provides.0.version = 1.0
+
+provides.1.namespace = osgi.ee
+provides.1.name = OSGi/Minimum
+provides.1.version = 1.1
+
+provides.2.namespace = osgi.ee
+provides.2.name = OSGi/Minimum
+provides.2.version = 1.2
+
+provides.3.namespace = osgi.ee
+provides.3.name = JRE
+provides.3.version = 1.0
+
+provides.4.namespace = osgi.ee
+provides.4.name = JRE
+provides.4.version = 1.1
+
+provides.5.namespace = osgi.ee
+provides.5.name = JavaSE
+provides.5.version = 1.0
+
+provides.6.namespace = osgi.ee
+provides.6.name = JavaSE
+provides.6.version = 1.1
+
+provides.7.namespace = osgi.ee
+provides.7.name = JavaSE
+provides.7.version = 1.2
+
+provides.8.namespace = osgi.ee
+provides.8.name = JavaSE
+provides.8.version = 1.3
+
+provides.9.namespace = osgi.ee
+provides.9.name = JavaSE
+provides.9.version = 1.4
+
+provides.10.namespace = osgi.ee
+provides.10.name = JavaSE
+provides.10.version = 1.5
+
+provides.11.namespace = osgi.ee
+provides.11.name = JavaSE
+provides.11.version = 1.6
+
+provides.12.namespace = osgi.ee
+provides.12.name = JavaSE
+provides.12.version = 1.7
+
+provides.13.namespace = osgi.ee
+provides.13.name = JavaSE
+provides.13.version = 1.8
+
+provides.14.namespace = osgi.ee
+provides.14.name = JavaSE
+provides.14.version = 9.0
+
+provides.15.namespace = osgi.ee
+provides.15.name = JavaSE
+provides.15.version = 10.0
+
+provides.16.namespace = osgi.ee
+provides.16.name = JavaSE
+provides.16.version = 11.0
+
+provides.17.namespace = osgi.ee
+provides.17.name = JavaSE
+provides.17.version = 12.0
+
+provides.18.namespace = osgi.ee
+provides.18.name = JavaSE
+provides.18.version = 13.0
+
+provides.19.namespace = osgi.ee
+provides.19.name = JavaSE
+provides.19.version = 14.0
+
+provides.20.namespace = osgi.ee
+provides.20.name = JavaSE
+provides.20.version = 15.0
+
+provides.21.namespace = osgi.ee
+provides.21.name = JavaSE
+provides.21.version = 16.0
+
+provides.22.namespace = osgi.ee
+provides.22.name = JavaSE
+provides.22.version = 17.0
+
+provides.23.namespace = osgi.ee
+provides.23.name = JavaSE/compact1
+provides.23.version = 1.8
+
+provides.24.namespace = osgi.ee
+provides.24.name = JavaSE/compact1
+provides.24.version = 9.0
+
+provides.25.namespace = osgi.ee
+provides.25.name = JavaSE/compact1
+provides.25.version = 10.0
+
+provides.26.namespace = osgi.ee
+provides.26.name = JavaSE/compact1
+provides.26.version = 11.0
+
+provides.27.namespace = osgi.ee
+provides.27.name = JavaSE/compact1
+provides.27.version = 12.0
+
+provides.28.namespace = osgi.ee
+provides.28.name = JavaSE/compact1
+provides.28.version = 13.0
+
+provides.29.namespace = osgi.ee
+provides.29.name = JavaSE/compact1
+provides.29.version = 14.0
+
+provides.30.namespace = osgi.ee
+provides.30.name = JavaSE/compact1
+provides.30.version = 15.0
+
+provides.31.namespace = osgi.ee
+provides.31.name = JavaSE/compact1
+provides.31.version = 16.0
+
+provides.32.namespace = osgi.ee
+provides.32.name = JavaSE/compact1
+provides.32.version = 17.0
+
+provides.33.namespace = osgi.ee
+provides.33.name = JavaSE/compact2
+provides.33.version = 1.8
+
+provides.34.namespace = osgi.ee
+provides.34.name = JavaSE/compact2
+provides.34.version = 9.0
+
+provides.35.namespace = osgi.ee
+provides.35.name = JavaSE/compact2
+provides.35.version = 10.0
+
+provides.36.namespace = osgi.ee
+provides.36.name = JavaSE/compact2
+provides.36.version = 11.0
+
+provides.37.namespace = osgi.ee
+provides.37.name = JavaSE/compact2
+provides.37.version = 12.0
+
+provides.38.namespace = osgi.ee
+provides.38.name = JavaSE/compact2
+provides.38.version = 13.0
+
+provides.39.namespace = osgi.ee
+provides.39.name = JavaSE/compact2
+provides.39.version = 14.0
+
+provides.40.namespace = osgi.ee
+provides.40.name = JavaSE/compact2
+provides.40.version = 15.0
+
+provides.41.namespace = osgi.ee
+provides.41.name = JavaSE/compact2
+provides.41.version = 16.0
+
+provides.42.namespace = osgi.ee
+provides.42.name = JavaSE/compact2
+provides.42.version = 17.0
+
+provides.43.namespace = osgi.ee
+provides.43.name = JavaSE/compact3
+provides.43.version = 1.8
+
+provides.44.namespace = osgi.ee
+provides.44.name = JavaSE/compact3
+provides.44.version = 9.0
+
+provides.45.namespace = osgi.ee
+provides.45.name = JavaSE/compact3
+provides.45.version = 10.0
+
+provides.46.namespace = osgi.ee
+provides.46.name = JavaSE/compact3
+provides.46.version = 11.0
+
+provides.47.namespace = osgi.ee
+provides.47.name = JavaSE/compact3
+provides.47.version = 12.0
+
+provides.48.namespace = osgi.ee
+provides.48.name = JavaSE/compact3
+provides.48.version = 13.0
+
+provides.49.namespace = osgi.ee
+provides.49.name = JavaSE/compact3
+provides.49.version = 14.0
+
+provides.50.namespace = osgi.ee
+provides.50.name = JavaSE/compact3
+provides.50.version = 15.0
+
+provides.51.namespace = osgi.ee
+provides.51.name = JavaSE/compact3
+provides.51.version = 16.0
+
+provides.52.namespace = osgi.ee
+provides.52.name = JavaSE/compact3
+provides.52.version = 17.0
+
+provides.53.namespace = java.package
+provides.53.name = com.sun.jarsigner
+provides.53.version = 0.0.0
+
+provides.54.namespace = java.package
+provides.54.name = com.sun.java.accessibility.util
+provides.54.version = 0.0.0
+
+provides.55.namespace = java.package
+provides.55.name = com.sun.jdi
+provides.55.version = 0.0.0
+
+provides.56.namespace = java.package
+provides.56.name = com.sun.jdi.connect
+provides.56.version = 0.0.0
+
+provides.57.namespace = java.package
+provides.57.name = com.sun.jdi.connect.spi
+provides.57.version = 0.0.0
+
+provides.58.namespace = java.package
+provides.58.name = com.sun.jdi.event
+provides.58.version = 0.0.0
+
+provides.59.namespace = java.package
+provides.59.name = com.sun.jdi.request
+provides.59.version = 0.0.0
+
+provides.60.namespace = java.package
+provides.60.name = com.sun.management
+provides.60.version = 0.0.0
+
+provides.61.namespace = java.package
+provides.61.name = com.sun.net.httpserver
+provides.61.version = 0.0.0
+
+provides.62.namespace = java.package
+provides.62.name = com.sun.net.httpserver.spi
+provides.62.version = 0.0.0
+
+provides.63.namespace = java.package
+provides.63.name = com.sun.nio.file
+provides.63.version = 0.0.0
+
+provides.64.namespace = java.package
+provides.64.name = com.sun.nio.sctp
+provides.64.version = 0.0.0
+
+provides.65.namespace = java.package
+provides.65.name = com.sun.security.auth
+provides.65.version = 0.0.0
+
+provides.66.namespace = java.package
+provides.66.name = com.sun.security.auth.callback
+provides.66.version = 0.0.0
+
+provides.67.namespace = java.package
+provides.67.name = com.sun.security.auth.login
+provides.67.version = 0.0.0
+
+provides.68.namespace = java.package
+provides.68.name = com.sun.security.auth.module
+provides.68.version = 0.0.0
+
+provides.69.namespace = java.package
+provides.69.name = com.sun.security.jgss
+provides.69.version = 0.0.0
+
+provides.70.namespace = java.package
+provides.70.name = com.sun.source.doctree
+provides.70.version = 0.0.0
+
+provides.71.namespace = java.package
+provides.71.name = com.sun.source.tree
+provides.71.version = 0.0.0
+
+provides.72.namespace = java.package
+provides.72.name = com.sun.source.util
+provides.72.version = 0.0.0
+
+provides.73.namespace = java.package
+provides.73.name = com.sun.tools.attach
+provides.73.version = 0.0.0
+
+provides.74.namespace = java.package
+provides.74.name = com.sun.tools.attach.spi
+provides.74.version = 0.0.0
+
+provides.75.namespace = java.package
+provides.75.name = com.sun.tools.javac
+provides.75.version = 0.0.0
+
+provides.76.namespace = java.package
+provides.76.name = com.sun.tools.jconsole
+provides.76.version = 0.0.0
+
+provides.77.namespace = java.package
+provides.77.name = java.applet
+provides.77.version = 0.0.0
+
+provides.78.namespace = java.package
+provides.78.name = java.awt
+provides.78.version = 0.0.0
+
+provides.79.namespace = java.package
+provides.79.name = java.awt.color
+provides.79.version = 0.0.0
+
+provides.80.namespace = java.package
+provides.80.name = java.awt.datatransfer
+provides.80.version = 0.0.0
+
+provides.81.namespace = java.package
+provides.81.name = java.awt.desktop
+provides.81.version = 0.0.0
+
+provides.82.namespace = java.package
+provides.82.name = java.awt.dnd
+provides.82.version = 0.0.0
+
+provides.83.namespace = java.package
+provides.83.name = java.awt.event
+provides.83.version = 0.0.0
+
+provides.84.namespace = java.package
+provides.84.name = java.awt.font
+provides.84.version = 0.0.0
+
+provides.85.namespace = java.package
+provides.85.name = java.awt.geom
+provides.85.version = 0.0.0
+
+provides.86.namespace = java.package
+provides.86.name = java.awt.im
+provides.86.version = 0.0.0
+
+provides.87.namespace = java.package
+provides.87.name = java.awt.im.spi
+provides.87.version = 0.0.0
+
+provides.88.namespace = java.package
+provides.88.name = java.awt.image
+provides.88.version = 0.0.0
+
+provides.89.namespace = java.package
+provides.89.name = java.awt.image.renderable
+provides.89.version = 0.0.0
+
+provides.90.namespace = java.package
+provides.90.name = java.awt.print
+provides.90.version = 0.0.0
+
+provides.91.namespace = java.package
+provides.91.name = java.beans
+provides.91.version = 0.0.0
+
+provides.92.namespace = java.package
+provides.92.name = java.beans.beancontext
+provides.92.version = 0.0.0
+
+provides.93.namespace = java.package
+provides.93.name = java.io
+provides.93.version = 0.0.0
+
+provides.94.namespace = java.package
+provides.94.name = java.lang
+provides.94.version = 0.0.0
+
+provides.95.namespace = java.package
+provides.95.name = java.lang.annotation
+provides.95.version = 0.0.0
+
+provides.96.namespace = java.package
+provides.96.name = java.lang.constant
+provides.96.version = 0.0.0
+
+provides.97.namespace = java.package
+provides.97.name = java.lang.instrument
+provides.97.version = 0.0.0
+
+provides.98.namespace = java.package
+provides.98.name = java.lang.invoke
+provides.98.version = 0.0.0
+
+provides.99.namespace = java.package
+provides.99.name = java.lang.management
+provides.99.version = 0.0.0
+
+provides.100.namespace = java.package
+provides.100.name = java.lang.module
+provides.100.version = 0.0.0
+
+provides.101.namespace = java.package
+provides.101.name = java.lang.ref
+provides.101.version = 0.0.0
+
+provides.102.namespace = java.package
+provides.102.name = java.lang.reflect
+provides.102.version = 0.0.0
+
+provides.103.namespace = java.package
+provides.103.name = java.lang.runtime
+provides.103.version = 0.0.0
+
+provides.104.namespace = java.package
+provides.104.name = java.math
+provides.104.version = 0.0.0
+
+provides.105.namespace = java.package
+provides.105.name = java.net
+provides.105.version = 0.0.0
+
+provides.106.namespace = java.package
+provides.106.name = java.net.http
+provides.106.version = 0.0.0
+
+provides.107.namespace = java.package
+provides.107.name = java.net.spi
+provides.107.version = 0.0.0
+
+provides.108.namespace = java.package
+provides.108.name = java.nio
+provides.108.version = 0.0.0
+
+provides.109.namespace = java.package
+provides.109.name = java.nio.channels
+provides.109.version = 0.0.0
+
+provides.110.namespace = java.package
+provides.110.name = java.nio.channels.spi
+provides.110.version = 0.0.0
+
+provides.111.namespace = java.package
+provides.111.name = java.nio.charset
+provides.111.version = 0.0.0
+
+provides.112.namespace = java.package
+provides.112.name = java.nio.charset.spi
+provides.112.version = 0.0.0
+
+provides.113.namespace = java.package
+provides.113.name = java.nio.file
+provides.113.version = 0.0.0
+
+provides.114.namespace = java.package
+provides.114.name = java.nio.file.attribute
+provides.114.version = 0.0.0
+
+provides.115.namespace = java.package
+provides.115.name = java.nio.file.spi
+provides.115.version = 0.0.0
+
+provides.116.namespace = java.package
+provides.116.name = java.rmi
+provides.116.version = 0.0.0
+
+provides.117.namespace = java.package
+provides.117.name = java.rmi.dgc
+provides.117.version = 0.0.0
+
+provides.118.namespace = java.package
+provides.118.name = java.rmi.registry
+provides.118.version = 0.0.0
+
+provides.119.namespace = java.package
+provides.119.name = java.rmi.server
+provides.119.version = 0.0.0
+
+provides.120.namespace = java.package
+provides.120.name = java.security
+provides.120.version = 0.0.0
+
+provides.121.namespace = java.package
+provides.121.name = java.security.cert
+provides.121.version = 0.0.0
+
+provides.122.namespace = java.package
+provides.122.name = java.security.interfaces
+provides.122.version = 0.0.0
+
+provides.123.namespace = java.package
+provides.123.name = java.security.spec
+provides.123.version = 0.0.0
+
+provides.124.namespace = java.package
+provides.124.name = java.sql
+provides.124.version = 0.0.0
+
+provides.125.namespace = java.package
+provides.125.name = java.text
+provides.125.version = 0.0.0
+
+provides.126.namespace = java.package
+provides.126.name = java.text.spi
+provides.126.version = 0.0.0
+
+provides.127.namespace = java.package
+provides.127.name = java.time
+provides.127.version = 0.0.0
+
+provides.128.namespace = java.package
+provides.128.name = java.time.chrono
+provides.128.version = 0.0.0
+
+provides.129.namespace = java.package
+provides.129.name = java.time.format
+provides.129.version = 0.0.0
+
+provides.130.namespace = java.package
+provides.130.name = java.time.temporal
+provides.130.version = 0.0.0
+
+provides.131.namespace = java.package
+provides.131.name = java.time.zone
+provides.131.version = 0.0.0
+
+provides.132.namespace = java.package
+provides.132.name = java.util
+provides.132.version = 0.0.0
+
+provides.133.namespace = java.package
+provides.133.name = java.util.concurrent
+provides.133.version = 0.0.0
+
+provides.134.namespace = java.package
+provides.134.name = java.util.concurrent.atomic
+provides.134.version = 0.0.0
+
+provides.135.namespace = java.package
+provides.135.name = java.util.concurrent.locks
+provides.135.version = 0.0.0
+
+provides.136.namespace = java.package
+provides.136.name = java.util.function
+provides.136.version = 0.0.0
+
+provides.137.namespace = java.package
+provides.137.name = java.util.jar
+provides.137.version = 0.0.0
+
+provides.138.namespace = java.package
+provides.138.name = java.util.logging
+provides.138.version = 0.0.0
+
+provides.139.namespace = java.package
+provides.139.name = java.util.prefs
+provides.139.version = 0.0.0
+
+provides.140.namespace = java.package
+provides.140.name = java.util.random
+provides.140.version = 0.0.0
+
+provides.141.namespace = java.package
+provides.141.name = java.util.regex
+provides.141.version = 0.0.0
+
+provides.142.namespace = java.package
+provides.142.name = java.util.spi
+provides.142.version = 0.0.0
+
+provides.143.namespace = java.package
+provides.143.name = java.util.stream
+provides.143.version = 0.0.0
+
+provides.144.namespace = java.package
+provides.144.name = java.util.zip
+provides.144.version = 0.0.0
+
+provides.145.namespace = java.package
+provides.145.name = javax.accessibility
+provides.145.version = 0.0.0
+
+provides.146.namespace = java.package
+provides.146.name = javax.annotation.processing
+provides.146.version = 0.0.0
+
+provides.147.namespace = java.package
+provides.147.name = javax.crypto
+provides.147.version = 0.0.0
+
+provides.148.namespace = java.package
+provides.148.name = javax.crypto.interfaces
+provides.148.version = 0.0.0
+
+provides.149.namespace = java.package
+provides.149.name = javax.crypto.spec
+provides.149.version = 0.0.0
+
+provides.150.namespace = java.package
+provides.150.name = javax.imageio
+provides.150.version = 0.0.0
+
+provides.151.namespace = java.package
+provides.151.name = javax.imageio.event
+provides.151.version = 0.0.0
+
+provides.152.namespace = java.package
+provides.152.name = javax.imageio.metadata
+provides.152.version = 0.0.0
+
+provides.153.namespace = java.package
+provides.153.name = javax.imageio.plugins.bmp
+provides.153.version = 0.0.0
+
+provides.154.namespace = java.package
+provides.154.name = javax.imageio.plugins.jpeg
+provides.154.version = 0.0.0
+
+provides.155.namespace = java.package
+provides.155.name = javax.imageio.plugins.tiff
+provides.155.version = 0.0.0
+
+provides.156.namespace = java.package
+provides.156.name = javax.imageio.spi
+provides.156.version = 0.0.0
+
+provides.157.namespace = java.package
+provides.157.name = javax.imageio.stream
+provides.157.version = 0.0.0
+
+provides.158.namespace = java.package
+provides.158.name = javax.lang.model
+provides.158.version = 0.0.0
+
+provides.159.namespace = java.package
+provides.159.name = javax.lang.model.element
+provides.159.version = 0.0.0
+
+provides.160.namespace = java.package
+provides.160.name = javax.lang.model.type
+provides.160.version = 0.0.0
+
+provides.161.namespace = java.package
+provides.161.name = javax.lang.model.util
+provides.161.version = 0.0.0
+
+provides.162.namespace = java.package
+provides.162.name = javax.management
+provides.162.version = 0.0.0
+
+provides.163.namespace = java.package
+provides.163.name = javax.management.loading
+provides.163.version = 0.0.0
+
+provides.164.namespace = java.package
+provides.164.name = javax.management.modelmbean
+provides.164.version = 0.0.0
+
+provides.165.namespace = java.package
+provides.165.name = javax.management.monitor
+provides.165.version = 0.0.0
+
+provides.166.namespace = java.package
+provides.166.name = javax.management.openmbean
+provides.166.version = 0.0.0
+
+provides.167.namespace = java.package
+provides.167.name = javax.management.relation
+provides.167.version = 0.0.0
+
+provides.168.namespace = java.package
+provides.168.name = javax.management.remote
+provides.168.version = 0.0.0
+
+provides.169.namespace = java.package
+provides.169.name = javax.management.remote.rmi
+provides.169.version = 0.0.0
+
+provides.170.namespace = java.package
+provides.170.name = javax.management.timer
+provides.170.version = 0.0.0
+
+provides.171.namespace = java.package
+provides.171.name = javax.naming
+provides.171.version = 0.0.0
+
+provides.172.namespace = java.package
+provides.172.name = javax.naming.directory
+provides.172.version = 0.0.0
+
+provides.173.namespace = java.package
+provides.173.name = javax.naming.event
+provides.173.version = 0.0.0
+
+provides.174.namespace = java.package
+provides.174.name = javax.naming.ldap
+provides.174.version = 0.0.0
+
+provides.175.namespace = java.package
+provides.175.name = javax.naming.ldap.spi
+provides.175.version = 0.0.0
+
+provides.176.namespace = java.package
+provides.176.name = javax.naming.spi
+provides.176.version = 0.0.0
+
+provides.177.namespace = java.package
+provides.177.name = javax.net
+provides.177.version = 0.0.0
+
+provides.178.namespace = java.package
+provides.178.name = javax.net.ssl
+provides.178.version = 0.0.0
+
+provides.179.namespace = java.package
+provides.179.name = javax.print
+provides.179.version = 0.0.0
+
+provides.180.namespace = java.package
+provides.180.name = javax.print.attribute
+provides.180.version = 0.0.0
+
+provides.181.namespace = java.package
+provides.181.name = javax.print.attribute.standard
+provides.181.version = 0.0.0
+
+provides.182.namespace = java.package
+provides.182.name = javax.print.event
+provides.182.version = 0.0.0
+
+provides.183.namespace = java.package
+provides.183.name = javax.rmi.ssl
+provides.183.version = 0.0.0
+
+provides.184.namespace = java.package
+provides.184.name = javax.script
+provides.184.version = 0.0.0
+
+provides.185.namespace = java.package
+provides.185.name = javax.security.auth
+provides.185.version = 0.0.0
+
+provides.186.namespace = java.package
+provides.186.name = javax.security.auth.callback
+provides.186.version = 0.0.0
+
+provides.187.namespace = java.package
+provides.187.name = javax.security.auth.kerberos
+provides.187.version = 0.0.0
+
+provides.188.namespace = java.package
+provides.188.name = javax.security.auth.login
+provides.188.version = 0.0.0
+
+provides.189.namespace = java.package
+provides.189.name = javax.security.auth.spi
+provides.189.version = 0.0.0
+
+provides.190.namespace = java.package
+provides.190.name = javax.security.auth.x500
+provides.190.version = 0.0.0
+
+provides.191.namespace = java.package
+provides.191.name = javax.security.cert
+provides.191.version = 0.0.0
+
+provides.192.namespace = java.package
+provides.192.name = javax.security.sasl
+provides.192.version = 0.0.0
+
+provides.193.namespace = java.package
+provides.193.name = javax.smartcardio
+provides.193.version = 0.0.0
+
+provides.194.namespace = java.package
+provides.194.name = javax.sound.midi
+provides.194.version = 0.0.0
+
+provides.195.namespace = java.package
+provides.195.name = javax.sound.midi.spi
+provides.195.version = 0.0.0
+
+provides.196.namespace = java.package
+provides.196.name = javax.sound.sampled
+provides.196.version = 0.0.0
+
+provides.197.namespace = java.package
+provides.197.name = javax.sound.sampled.spi
+provides.197.version = 0.0.0
+
+provides.198.namespace = java.package
+provides.198.name = javax.sql
+provides.198.version = 0.0.0
+
+provides.199.namespace = java.package
+provides.199.name = javax.sql.rowset
+provides.199.version = 0.0.0
+
+provides.200.namespace = java.package
+provides.200.name = javax.sql.rowset.serial
+provides.200.version = 0.0.0
+
+provides.201.namespace = java.package
+provides.201.name = javax.sql.rowset.spi
+provides.201.version = 0.0.0
+
+provides.202.namespace = java.package
+provides.202.name = javax.swing
+provides.202.version = 0.0.0
+
+provides.203.namespace = java.package
+provides.203.name = javax.swing.border
+provides.203.version = 0.0.0
+
+provides.204.namespace = java.package
+provides.204.name = javax.swing.colorchooser
+provides.204.version = 0.0.0
+
+provides.205.namespace = java.package
+provides.205.name = javax.swing.event
+provides.205.version = 0.0.0
+
+provides.206.namespace = java.package
+provides.206.name = javax.swing.filechooser
+provides.206.version = 0.0.0
+
+provides.207.namespace = java.package
+provides.207.name = javax.swing.plaf
+provides.207.version = 0.0.0
+
+provides.208.namespace = java.package
+provides.208.name = javax.swing.plaf.basic
+provides.208.version = 0.0.0
+
+provides.209.namespace = java.package
+provides.209.name = javax.swing.plaf.metal
+provides.209.version = 0.0.0
+
+provides.210.namespace = java.package
+provides.210.name = javax.swing.plaf.multi
+provides.210.version = 0.0.0
+
+provides.211.namespace = java.package
+provides.211.name = javax.swing.plaf.nimbus
+provides.211.version = 0.0.0
+
+provides.212.namespace = java.package
+provides.212.name = javax.swing.plaf.synth
+provides.212.version = 0.0.0
+
+provides.213.namespace = java.package
+provides.213.name = javax.swing.table
+provides.213.version = 0.0.0
+
+provides.214.namespace = java.package
+provides.214.name = javax.swing.text
+provides.214.version = 0.0.0
+
+provides.215.namespace = java.package
+provides.215.name = javax.swing.text.html
+provides.215.version = 0.0.0
+
+provides.216.namespace = java.package
+provides.216.name = javax.swing.text.html.parser
+provides.216.version = 0.0.0
+
+provides.217.namespace = java.package
+provides.217.name = javax.swing.text.rtf
+provides.217.version = 0.0.0
+
+provides.218.namespace = java.package
+provides.218.name = javax.swing.tree
+provides.218.version = 0.0.0
+
+provides.219.namespace = java.package
+provides.219.name = javax.swing.undo
+provides.219.version = 0.0.0
+
+provides.220.namespace = java.package
+provides.220.name = javax.tools
+provides.220.version = 0.0.0
+
+provides.221.namespace = java.package
+provides.221.name = javax.transaction.xa
+provides.221.version = 0.0.0
+
+provides.222.namespace = java.package
+provides.222.name = javax.xml
+provides.222.version = 0.0.0
+
+provides.223.namespace = java.package
+provides.223.name = javax.xml.catalog
+provides.223.version = 0.0.0
+
+provides.224.namespace = java.package
+provides.224.name = javax.xml.crypto
+provides.224.version = 0.0.0
+
+provides.225.namespace = java.package
+provides.225.name = javax.xml.crypto.dom
+provides.225.version = 0.0.0
+
+provides.226.namespace = java.package
+provides.226.name = javax.xml.crypto.dsig
+provides.226.version = 0.0.0
+
+provides.227.namespace = java.package
+provides.227.name = javax.xml.crypto.dsig.dom
+provides.227.version = 0.0.0
+
+provides.228.namespace = java.package
+provides.228.name = javax.xml.crypto.dsig.keyinfo
+provides.228.version = 0.0.0
+
+provides.229.namespace = java.package
+provides.229.name = javax.xml.crypto.dsig.spec
+provides.229.version = 0.0.0
+
+provides.230.namespace = java.package
+provides.230.name = javax.xml.datatype
+provides.230.version = 0.0.0
+
+provides.231.namespace = java.package
+provides.231.name = javax.xml.namespace
+provides.231.version = 0.0.0
+
+provides.232.namespace = java.package
+provides.232.name = javax.xml.parsers
+provides.232.version = 0.0.0
+
+provides.233.namespace = java.package
+provides.233.name = javax.xml.stream
+provides.233.version = 0.0.0
+
+provides.234.namespace = java.package
+provides.234.name = javax.xml.stream.events
+provides.234.version = 0.0.0
+
+provides.235.namespace = java.package
+provides.235.name = javax.xml.stream.util
+provides.235.version = 0.0.0
+
+provides.236.namespace = java.package
+provides.236.name = javax.xml.transform
+provides.236.version = 0.0.0
+
+provides.237.namespace = java.package
+provides.237.name = javax.xml.transform.dom
+provides.237.version = 0.0.0
+
+provides.238.namespace = java.package
+provides.238.name = javax.xml.transform.sax
+provides.238.version = 0.0.0
+
+provides.239.namespace = java.package
+provides.239.name = javax.xml.transform.stax
+provides.239.version = 0.0.0
+
+provides.240.namespace = java.package
+provides.240.name = javax.xml.transform.stream
+provides.240.version = 0.0.0
+
+provides.241.namespace = java.package
+provides.241.name = javax.xml.validation
+provides.241.version = 0.0.0
+
+provides.242.namespace = java.package
+provides.242.name = javax.xml.xpath
+provides.242.version = 0.0.0
+
+provides.243.namespace = java.package
+provides.243.name = jdk.dynalink
+provides.243.version = 0.0.0
+
+provides.244.namespace = java.package
+provides.244.name = jdk.dynalink.beans
+provides.244.version = 0.0.0
+
+provides.245.namespace = java.package
+provides.245.name = jdk.dynalink.linker
+provides.245.version = 0.0.0
+
+provides.246.namespace = java.package
+provides.246.name = jdk.dynalink.linker.support
+provides.246.version = 0.0.0
+
+provides.247.namespace = java.package
+provides.247.name = jdk.dynalink.support
+provides.247.version = 0.0.0
+
+provides.248.namespace = java.package
+provides.248.name = jdk.javadoc.doclet
+provides.248.version = 0.0.0
+
+provides.249.namespace = java.package
+provides.249.name = jdk.jfr
+provides.249.version = 0.0.0
+
+provides.250.namespace = java.package
+provides.250.name = jdk.jfr.consumer
+provides.250.version = 0.0.0
+
+provides.251.namespace = java.package
+provides.251.name = jdk.jshell
+provides.251.version = 0.0.0
+
+provides.252.namespace = java.package
+provides.252.name = jdk.jshell.execution
+provides.252.version = 0.0.0
+
+provides.253.namespace = java.package
+provides.253.name = jdk.jshell.spi
+provides.253.version = 0.0.0
+
+provides.254.namespace = java.package
+provides.254.name = jdk.jshell.tool
+provides.254.version = 0.0.0
+
+provides.255.namespace = java.package
+provides.255.name = jdk.management.jfr
+provides.255.version = 0.0.0
+
+provides.256.namespace = java.package
+provides.256.name = jdk.net
+provides.256.version = 0.0.0
+
+provides.257.namespace = java.package
+provides.257.name = jdk.nio
+provides.257.version = 0.0.0
+
+provides.258.namespace = java.package
+provides.258.name = jdk.nio.mapmode
+provides.258.version = 0.0.0
+
+provides.259.namespace = java.package
+provides.259.name = jdk.security.jarsigner
+provides.259.version = 0.0.0
+
+provides.260.namespace = java.package
+provides.260.name = jdk.swing.interop
+provides.260.version = 0.0.0
+
+provides.261.namespace = java.package
+provides.261.name = netscape.javascript
+provides.261.version = 0.0.0
+
+provides.262.namespace = java.package
+provides.262.name = org.ietf.jgss
+provides.262.version = 0.0.0
+
+provides.263.namespace = java.package
+provides.263.name = org.w3c.dom
+provides.263.version = 0.0.0
+
+provides.264.namespace = java.package
+provides.264.name = org.w3c.dom.bootstrap
+provides.264.version = 0.0.0
+
+provides.265.namespace = java.package
+provides.265.name = org.w3c.dom.css
+provides.265.version = 0.0.0
+
+provides.266.namespace = java.package
+provides.266.name = org.w3c.dom.events
+provides.266.version = 0.0.0
+
+provides.267.namespace = java.package
+provides.267.name = org.w3c.dom.html
+provides.267.version = 0.0.0
+
+provides.268.namespace = java.package
+provides.268.name = org.w3c.dom.ls
+provides.268.version = 0.0.0
+
+provides.269.namespace = java.package
+provides.269.name = org.w3c.dom.ranges
+provides.269.version = 0.0.0
+
+provides.270.namespace = java.package
+provides.270.name = org.w3c.dom.stylesheets
+provides.270.version = 0.0.0
+
+provides.271.namespace = java.package
+provides.271.name = org.w3c.dom.traversal
+provides.271.version = 0.0.0
+
+provides.272.namespace = java.package
+provides.272.name = org.w3c.dom.views
+provides.272.version = 0.0.0
+
+provides.273.namespace = java.package
+provides.273.name = org.w3c.dom.xpath
+provides.273.version = 0.0.0
+
+provides.274.namespace = java.package
+provides.274.name = org.xml.sax
+provides.274.version = 0.0.0
+
+provides.275.namespace = java.package
+provides.275.name = org.xml.sax.ext
+provides.275.version = 0.0.0
+
+provides.276.namespace = java.package
+provides.276.name = org.xml.sax.helpers
+provides.276.version = 0.0.0
+
+provides.277.namespace = java.package
+provides.277.name = sun.misc
+provides.277.version = 0.0.0
+
+provides.278.namespace = java.package
+provides.278.name = sun.reflect
+provides.278.version = 0.0.0
+
+properties.0.name = org.eclipse.justj.model
+properties.0.value = <?xml version="1.0" encoding="UTF-8"?>\n\
+ <model:Variant\n\
+\    xmlns:model="http://www.eclipse.org/just/2020/Model"\n\
+\    os="win32"\n\
+\    arch="x86_64"\n\
+\    label="Windows x86 64 bit"\n\
+\    source="https://download.eclipse.org/justj/jres/17/downloads/20221101_1350/org.eclipse.justj.openjdk.hotspot.jre.full-17.0.5-win32-x86_64.tar.gz">\n\
+\  <touchpoints>\n\
+\    <instruction>org.eclipse.equinox.p2.touchpoint.eclipse.setJvm(jvm:${artifact.location}/jre/bin)</instruction>\n\
+\  </touchpoints>\n\
+\  <annotation\n\
+\      source="https://www.eclipse.org/justj/Properties">\n\
+\    <detail\n\
+\        key="java.vm.compressedOopsMode">\n\
+\      <value>32-bit</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.modules">\n\
+\      <value>java.base,java.compiler,java.datatransfer,java.desktop,java.instrument,java.logging,java.management,java.management.rmi,java.naming,java.net.http,java.prefs,java.rmi,java.scripting,java.se,java.security.jgss,java.security.sasl,java.smartcardio,java.sql,java.sql.rowset,java.transaction.xa,java.xml,java.xml.crypto,jdk.accessibility,jdk.attach,jdk.charsets,jdk.compiler,jdk.crypto.cryptoki,jdk.crypto.ec,jdk.crypto.mscapi,jdk.dynalink,jdk.editpad,jdk.hotspot.agent,jdk.httpserver,jdk.internal.ed,jdk.internal.jvmstat,jdk.internal.le,jdk.internal.opt,jdk.internal.vm.ci,jdk.internal.vm.compiler,jdk.internal.vm.compiler.management,jdk.jartool,jdk.javadoc,jdk.jcmd,jdk.jconsole,jdk.jdeps,jdk.jdi,jdk.jdwp.agent,jdk.jfr,jdk.jlink,jdk.jpackage,jdk.jshell,jdk.jsobject,jdk.jstatd,jdk.localedata,jdk.management,jdk.management.agent,jdk.management.jfr,jdk.naming.dns,jdk.naming.rmi,jdk.net,jdk.nio.mapmode,jdk.random,jdk.sctp,jdk.security.auth,jdk.security.jgss,jdk.unsupported,jdk.unsupported.desktop,jdk.xml.dom,jdk.zipfs</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.url.source">\n\
+\      <value>https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.5+8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.5_8.zip</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="org.eclipse.justj.vm.arg">\n\
+\      <value>bin</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="osgi.arch">\n\
+\      <value>x86_64</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="osgi.os">\n\
+\      <value>win32</value>\n\
+\    </detail>\n\
+\    <detail\n\
+\        key="osgi.ws">\n\
+\      <value>win32</value>\n\
+\    </detail>\n\
+\  </annotation>\n\
+ </model:Variant>\n

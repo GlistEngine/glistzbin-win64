@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.lsp4e.languageServer">
+      <server
+            class="org.eclipse.linuxtools.docker.editor.ls.DockerfileLanguageServer"
+            id="org.eclipse.linuxtools.docker.editor.ls.server"
+            label="Dockerfile Language Server">
+      </server>
+      <contentTypeMapping
+            contentType="org.eclipse.linuxtools.docker.editor.ls"
+            languageId="Dockerfile"
+            id="org.eclipse.linuxtools.docker.editor.ls.server">
+      </contentTypeMapping>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editorContentTypeBinding
+            contentTypeId="org.eclipse.linuxtools.docker.editor.ls"
+            editorId="org.eclipse.ui.genericeditor.GenericEditor">
+      </editorContentTypeBinding>
+   </extension>
+   <extension
+         point="org.eclipse.core.contenttype.contentTypes">
+      <content-type
+            base-type="org.eclipse.core.runtime.text"
+            file-extensions="Dockerfile,dockerfile"
+            file-names="Dockerfile"
+            file-patterns="Dockerfile.*"
+            id="org.eclipse.linuxtools.docker.editor.ls"
+            name="Dockerfile"
+            priority="normal">
+      </content-type>
+   </extension>
+   <extension
+         point="org.eclipse.tm4e.registry.grammars">
+      <grammar
+            path="grammars/Dockerfile.tmLanguage"
+            scopeName="source.dockerfile">
+      </grammar>
+      <scopeNameContentTypeBinding
+            contentTypeId="org.eclipse.linuxtools.docker.editor.ls"
+            scopeName="source.dockerfile">
+      </scopeNameContentTypeBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.genericeditor.presentationReconcilers">
+      <presentationReconciler
+            class="org.eclipse.tm4e.ui.text.TMPresentationReconciler"
+            contentType="org.eclipse.linuxtools.docker.editor.ls">
+      </presentationReconciler>
+   </extension>
+   <extension point="org.eclipse.ui.genericeditor.icons">
+		<icon contentType="org.eclipse.linuxtools.docker.editor.ls" icon="icons/dockerfile.png" />
+	</extension>
+
+</plugin>

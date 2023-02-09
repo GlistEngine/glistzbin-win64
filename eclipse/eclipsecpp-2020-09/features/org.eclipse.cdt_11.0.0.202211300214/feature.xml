@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright (c) 2002, 2021 Contributors to the Eclipse Foundation
+
+   This program and the accompanying materials
+   are made available under the terms of the Eclipse Public License 2.0
+   which accompanies this distribution, and is available at
+   https://www.eclipse.org/legal/epl-2.0/
+
+   SPDX-License-Identifier: EPL-2.0
+-->
+<feature
+      id="org.eclipse.cdt"
+      label="%featureName"
+      version="11.0.0.202211300214"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.cdt.platform"
+         version="11.0.0.202211300214"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.build"
+         version="11.0.0.202211211546"/>
+
+   <includes
+         id="org.eclipse.cdt.gdb"
+         version="11.0.0.202211062329"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.debug"
+         version="11.0.0.202211062329"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.dsf"
+         version="11.0.0.202211221643"/>
+
+</feature>

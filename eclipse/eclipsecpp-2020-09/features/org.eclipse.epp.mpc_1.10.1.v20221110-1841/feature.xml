@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epp.mpc"
+      label="%featureName"
+      version="1.10.1.v20221110-1841"
+      provider-name="%providerName"
+      plugin="org.eclipse.epp.mpc.ui">
+
+   <description url="http://www.eclipse.org/epp/mpc/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.equinox.p2.discovery.feature" version="1.0.0.v201004" match="compatible"/>
+      <import feature="org.eclipse.userstorage" version="1.1.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.epp.mpc.core"
+         download-size="249"
+         install-size="532"
+         version="1.10.1.v20221110-1841"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epp.mpc.core.win32"
+         os="win32"
+         download-size="14"
+         install-size="19"
+         version="1.10.1.v20221110-1841"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epp.mpc.ui"
+         download-size="606"
+         install-size="1296"
+         version="1.10.1.v20221110-1841"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epp.mpc.ui.css"
+         download-size="24"
+         install-size="39"
+         version="1.10.1.v20221110-1841"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.epp.mpc.help.ui"
+         download-size="751"
+         install-size="782"
+         version="1.10.1.v20221110-1841"
+         unpack="false"/>
+
+</feature>

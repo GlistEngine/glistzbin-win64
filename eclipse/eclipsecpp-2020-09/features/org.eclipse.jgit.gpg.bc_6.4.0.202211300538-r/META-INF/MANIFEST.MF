@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+
+Name: edl-v10.html
+SHA-256-Digest: c0JryUaRpEBL/9pblDqxQkuSk+XJmylESS+9c04zfSE=
+
+Name: feature.xml
+SHA-256-Digest: OLLQlf69agy/4GWLzUXmrGMryfFdF7z/nnkBRsc6Qt8=
+
+Name: feature.properties
+SHA-256-Digest: OTuNLnsEIfVMclPicVF+qPiH9DVgvpCYwtlzrNkabzI=
+
+Name: license.html
+SHA-256-Digest: oALmap5FrojqDip1vtgpfXd/3c0Rw/Ms2lFouFiq+Ao=
+

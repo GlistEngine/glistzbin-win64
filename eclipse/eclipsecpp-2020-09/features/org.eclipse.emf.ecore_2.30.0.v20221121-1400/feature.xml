@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecore"
+      label="%featureName"
+      version="2.30.0.v20221121-1400"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v20.html">
+      Copyright (c) 2002-2018 IBM Corporation and others.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v20.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%EMFUpdateSiteName" url="https://download.eclipse.org/modeling/emf/emf/builds/"/>
+      <discovery label="%EMFUpdateSiteName" url="https://download.eclipse.org/modeling/emf/emf/builds/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.common"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.ecore"
+         download-size="1294"
+         install-size="3192"
+         version="2.29.0.v20221121-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore.change"
+         download-size="89"
+         install-size="210"
+         version="2.14.0.v20190528-0725"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore.xmi"
+         download-size="232"
+         install-size="495"
+         version="2.17.0.v20220817-1334"
+         unpack="false"/>
+
+</feature>

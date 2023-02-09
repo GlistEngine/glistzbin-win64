@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.linuxtools.changelog.c"
+      label="%featureName"
+      version="8.9.0.202211291906"
+      provider-name="%featureProvider">
+
+   <description url="http://www.eclipse.org/linuxtools">
+      %featureDescription
+   </description>
+
+   <copyright url="http://www.redhat.com">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="Linux Tools Update Site" url="http://download.eclipse.org/linuxtools/update"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.team.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.team.core"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="org.eclipse.compare"/>
+      <import plugin="org.eclipse.core.runtime" version="2.1.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.linuxtools.changelog.core"
+         download-size="111"
+         install-size="230"
+         version="3.0.0.202211291906"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.changelog.doc"
+         download-size="722"
+         install-size="773"
+         version="2.7.1.202211291906"/>
+
+   <plugin
+         id="org.eclipse.linuxtools.changelog.cparser"
+         download-size="16"
+         install-size="25"
+         version="2.7.0.202211291906"
+         fragment="true"
+         unpack="false"/>
+
+</feature>
