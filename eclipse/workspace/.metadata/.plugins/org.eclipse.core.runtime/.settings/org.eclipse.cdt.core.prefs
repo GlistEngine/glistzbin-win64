@@ -8,5 +8,5 @@ environment/workspace/PATH/value=${workspace_loc}\\..\\..\\clang64\\bin;${worksp
 environment/workspace/append=true
 environment/workspace/appendContributed=true
 errorparser.default.ids=org.eclipse.cdt.autotools.core.ErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.VCErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.MakeErrorParser
-language.settings.providers.workspace.prefs.toggle=false
+language.settings.providers.workspace.prefs.toggle=true
 macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<macros/>\r\n
