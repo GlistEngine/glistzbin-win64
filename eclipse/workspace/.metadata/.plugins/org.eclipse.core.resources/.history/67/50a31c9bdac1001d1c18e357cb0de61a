@@ -1,0 +1,3 @@
+C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E rm -f CMakeFiles\GlistEngine.dir/objects.a
+C:\dev\glist\zbin\glistzbin-win64\clang64\bin\ar.exe cr CMakeFiles\GlistEngine.dir/objects.a @CMakeFiles\GlistEngine.dir\objects1.rsp
+C:\dev\glist\myglistapps\GlistApp\..\..\zbin\glistzbin-win64\clang64\bin\clang++.exe  -v -pthread -Wl,--gc-sections -shared -o libGlistEngine.dll -Wl,--out-implib,libGlistEngine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\GlistEngine.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\GlistEngine.dir\linklibs.rsp

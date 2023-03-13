@@ -1,7 +1,7 @@
-22:13:15 **** Incremental Build of configuration Release for project GlistApp ****
+23:11:41 **** Incremental Build of configuration Release for project GlistApp ****
 "C:\\dev\\glist\\zbin\\glistzbin-win64\\clang64\\bin\\mingw32-make.exe" -j 4 all 
 [ 97%] Built target GlistEngine
 [100%] Built target GlistApp
 
-22:13:16 Build Finished. 0 errors, 0 warnings. (took 1s.356ms)
+23:11:42 Build Finished. 0 errors, 0 warnings. (took 897ms)
 
