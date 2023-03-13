@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\dev\\glist\\glistengine\\.git;C\:\\dev\\glist\\glistplugins\\gipOpenNN\\.git;C\:\\dev\\glist\\myglistapps\\GlistApp\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\dev\\glist\\glistengine\\.git;C\:\\dev\\glist\\glistplugins\\gipOpenNN\\.git;C\:\\dev\\glist\\myglistapps\\GlistApp\\.git;
+GitRepositoriesView.GitDirectories=C\:\\dev\\glist\\glistengine\\.git;C\:\\dev\\glist\\glistplugins\\gipOpenNN\\.git;C\:\\dev\\glist\\myglistapps\\GlistApp\\.git;C\:\\dev\\glist\\GlistEngine\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\dev\\glist\\glistengine\\.git;C\:\\dev\\glist\\glistplugins\\gipOpenNN\\.git;C\:\\dev\\glist\\myglistapps\\GlistApp\\.git;C\:\\dev\\glist\\GlistEngine\\.git;
 RepositorySearchDialogSearchPath=C\:\\dev\\glist\\glistengine
 eclipse.preferences.version=1

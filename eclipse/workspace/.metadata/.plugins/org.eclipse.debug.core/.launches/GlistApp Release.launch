@@ -2,7 +2,7 @@
 <launchConfiguration type="org.eclipse.cdt.launch.applicationLaunchType">
     <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
     <stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
-    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="build/Release/GlistApp.exe"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="_build/Release/GlistApp.exe"/>
     <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="GlistApp"/>
     <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
     <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="cdt.managedbuild.toolchain.gnu.cross.base.1466761803"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item key="OUTSIDE_LOCATION" value="C:\dev\glist\myglistapps\GlistApp-OpenNN"/>
+		<item key="OUTSIDE_LOCATION" value="C:\dev\glist\myglistapps\GlistApp"/>
 	</section>
 	<section name="NewWizardAction">
 	</section>
