@@ -1,20 +1,3 @@
-22:29:21 **** Incremental Build of configuration Release for project GlistEngine ****
-"C:\\dev\\glist\\zbin\\glistzbin-win64\\mingw64\\bin\\mingw32-make.exe" all 
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -SC:\dev\glist\glistengine\engine -BC:\dev\glist\glistengine\engine\_build\Release --check-build-system CMakeFiles\Makefile.cmake 0
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E cmake_progress_start C:\dev\glist\glistengine\engine\_build\Release\CMakeFiles C:\dev\glist\glistengine\engine\_build\Release\\CMakeFiles\progress.marks
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\Makefile2 all
-mingw32-make[1]: Entering directory 'C:/dev/glist/glistengine/engine/_build/Release'
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\GlistEngine.dir\build.make CMakeFiles/GlistEngine.dir/depend
-mingw32-make[2]: Entering directory 'C:/dev/glist/glistengine/engine/_build/Release'
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E cmake_depends "MinGW Makefiles" C:\dev\glist\glistengine\engine C:\dev\glist\glistengine\engine C:\dev\glist\glistengine\engine\_build\Release C:\dev\glist\glistengine\engine\_build\Release C:\dev\glist\glistengine\engine\_build\Release\CMakeFiles\GlistEngine.dir\DependInfo.cmake --color=
-mingw32-make[2]: Leaving directory 'C:/dev/glist/glistengine/engine/_build/Release'
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\GlistEngine.dir\build.make CMakeFiles/GlistEngine.dir/build
-mingw32-make[2]: Entering directory 'C:/dev/glist/glistengine/engine/_build/Release'
-mingw32-make[2]: Nothing to be done for 'CMakeFiles/GlistEngine.dir/build'.
-mingw32-make[2]: Leaving directory 'C:/dev/glist/glistengine/engine/_build/Release'
-[100%] Built target GlistEngine
-mingw32-make[1]: Leaving directory 'C:/dev/glist/glistengine/engine/_build/Release'
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E cmake_progress_start C:\dev\glist\glistengine\engine\_build\Release\CMakeFiles 0
-
-22:29:22 Build Finished. 0 errors, 0 warnings. (took 685ms)
-
+Buildfile generation error occurred..
+cmake exited with status 1. See CDT global build console for details.
+Build stopped..

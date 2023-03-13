@@ -1,29 +1,7 @@
-22:29:22 **** Incremental Build of configuration Release for project GlistApp ****
-"C:\\dev\\glist\\zbin\\glistzbin-win64\\mingw64\\bin\\mingw32-make.exe" all 
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -SC:\dev\glist\myglistapps\GlistApp -BC:\dev\glist\myglistapps\GlistApp\build\Release --check-build-system CMakeFiles\Makefile.cmake 0
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E cmake_progress_start C:\dev\glist\myglistapps\GlistApp\build\Release\CMakeFiles C:\dev\glist\myglistapps\GlistApp\build\Release\\CMakeFiles\progress.marks
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\Makefile2 all
-mingw32-make[1]: Entering directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\GlistEngine.dir\build.make CMakeFiles/GlistEngine.dir/depend
-mingw32-make[2]: Entering directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E cmake_depends "MinGW Makefiles" C:\dev\glist\myglistapps\GlistApp C:\dev\glist\myglistapps\GlistApp C:\dev\glist\myglistapps\GlistApp\build\Release C:\dev\glist\myglistapps\GlistApp\build\Release C:\dev\glist\myglistapps\GlistApp\build\Release\CMakeFiles\GlistEngine.dir\DependInfo.cmake --color=
-mingw32-make[2]: Leaving directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\GlistEngine.dir\build.make CMakeFiles/GlistEngine.dir/build
-mingw32-make[2]: Entering directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-mingw32-make[2]: Nothing to be done for 'CMakeFiles/GlistEngine.dir/build'.
-mingw32-make[2]: Leaving directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
+22:13:15 **** Incremental Build of configuration Release for project GlistApp ****
+"C:\\dev\\glist\\zbin\\glistzbin-win64\\clang64\\bin\\mingw32-make.exe" -j 4 all 
 [ 97%] Built target GlistEngine
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\GlistApp.dir\build.make CMakeFiles/GlistApp.dir/depend
-mingw32-make[2]: Entering directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E cmake_depends "MinGW Makefiles" C:\dev\glist\myglistapps\GlistApp C:\dev\glist\myglistapps\GlistApp C:\dev\glist\myglistapps\GlistApp\build\Release C:\dev\glist\myglistapps\GlistApp\build\Release C:\dev\glist\myglistapps\GlistApp\build\Release\CMakeFiles\GlistApp.dir\DependInfo.cmake --color=
-mingw32-make[2]: Leaving directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-C:/dev/glist/zbin/glistzbin-win64/mingw64/bin/mingw32-make  -f CMakeFiles\GlistApp.dir\build.make CMakeFiles/GlistApp.dir/build
-mingw32-make[2]: Entering directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-mingw32-make[2]: Nothing to be done for 'CMakeFiles/GlistApp.dir/build'.
-mingw32-make[2]: Leaving directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
 [100%] Built target GlistApp
-mingw32-make[1]: Leaving directory 'C:/dev/glist/myglistapps/GlistApp/build/Release'
-C:\dev\glist\zbin\glistzbin-win64\CMake\bin\cmake.exe -E cmake_progress_start C:\dev\glist\myglistapps\GlistApp\build\Release\CMakeFiles 0
 
-22:29:23 Build Finished. 0 errors, 0 warnings. (took 786ms)
+22:13:16 Build Finished. 0 errors, 0 warnings. (took 1s.356ms)
 
