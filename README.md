@@ -7,8 +7,8 @@ Developers should download this repo from [Release](https://github.com/GlistEngi
 
 Download the released zip and extract it under C:\dev\glist\zbin
 
-After extraction, your folder structure should look like that:<br/>
---- C:\dev\glist\zbin\glistzbin-win64\<br/>
+After extraction, your folder structure should look like that:<br>
+--- C:\dev\glist\zbin\glistzbin-win64\<br>
 --------- clang64\<br />
 --------- CMake\<br />
 --------- eclipse\<br />
