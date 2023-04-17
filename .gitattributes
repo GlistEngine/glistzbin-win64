@@ -1,3 +1,0 @@
-libclang-cpp.dll filter=lfs diff=lfs merge=lfs -text
-*libclang-cpp.dll filter=lfs diff=lfs merge=lfs -text
-*libLLVM-15.dll filter=lfs diff=lfs merge=lfs -text
