@@ -9,9 +9,9 @@ Download the released zip and extract it under ~/dev/glist/zbin
 
 After extraction, your folder structure should look like that:<br/>
 --- ~/dev/glist/zbin/glistzbin-linux/<br/>
---------- clang64\<br/>
---------- CMake\<br/>
---------- eclipse/<br/>
+--------- clang64\ <br/>
+--------- CMake\ <br/>
+--------- eclipse\ <br/>
 --------- GlistEngine-Win64<br/>
 --------- LICENSE<br/>
 --------- README.md<br/>
